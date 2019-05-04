@@ -6,6 +6,9 @@
 <meta charset="UTF-8">
 <title>top</title>
     <style>
+    	body, input {
+    		font-size: 12px;
+    	}
 		ul {
 			list-style: none;
 			margin: 0;
@@ -13,6 +16,15 @@
 		}
 		a {
 			text-dacoration: none;
+		}
+		.header {
+			padding-bottom: 8px;
+			border-bottom: 1px solid #e5e5e5;
+		}
+		.header:after {
+			clear:both;
+			content: '';
+			display: block;
 		}
 		.nMain img {
 			width: 60px;
@@ -30,7 +42,7 @@
 		}
 		.nMain, .nToon, ul li {
 			margin: 0 0 0 0;
-			padding-left: 10px;
+			padding-left: 7px;
 		    float: left;
 		}
 		.nNovel {
@@ -51,16 +63,23 @@
 		.search_field{
 			width: 300px;
 			height: 20px;
-			border: solid 1.5px lightgray;
+			border: solid 1px lightgray;
+		}
+		.searchForm{
+			width: 300px;
+			height: 20px;
+		}
+		.headToon_menu {
+			margin-left: 25px;
 		}
 		.headToon_menu a{
 			font-weight: bold;
 			letter-spacing: -2px;
 		}
 		.headToon_menu li {
-			padding: 10 10 10 10;
-			margin-left: 10px;
+			padding: 10 14 10;
 			display: block;
+			
 		}
 		.btn_search {
 			float: right;
@@ -68,6 +87,7 @@
 		.groupToon_menu {
 			float: left;
 			display: block;
+			clear: none;
 		}
 		.groupToon_menu li {
 			padding: 10 10 10 10;
@@ -104,11 +124,11 @@
 		    		<a href="naver.com" title="네이버"><img src="img/네이버로고.png" width="55px"></a> 
 		    	</div>
 				<div class="nToon">
-					<a href="#" title="만화"><img src="img/만화.png" width="50px"></a>
+					<a href="#" title="만화"><img src="img/만화.png" width="45px" height="35px"></a>
 				</div>
-					<b class="bar">|</b>
+					<span class="bar">|</span>
 				<div class="nNovel">
-					<a href="" title="웹소설" style="float: left;"><img src="img/웹소설.png" width="50px"></a>
+					<a href="" title="웹소설" style="float: left; margin-top: 2px;"><img src="img/웹소설.png" width="45px"></a>
 				</div> 
 				<fieldset class="search_field">	
 					<form id="searchForm" name="search" method="get" action="#">
@@ -146,6 +166,7 @@
 		    				<span class="nmMypage">마이페이지</span></a>
 						</li>
 		    		</ul>
+		    		<span class="bar" style="padding-top: 8px;">|</span>
 		    		<ul class="menu1_right">
 		    			<li>
 							<a class="menu_link" href="#">
