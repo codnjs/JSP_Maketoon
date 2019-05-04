@@ -21,7 +21,10 @@
 			padding-bottom: 8px;
 			border-bottom: 1px solid #e5e5e5;
 		}
-		.header:after {
+		.headToon_menu, .groupToon_menu {
+			border-bottom: 1px solid #e5e5e5;
+		}
+		.header::after, .headToon_menu::after, .groupToon_menu::after {
 			clear:both;
 			content: '';
 			display: block;
@@ -57,7 +60,7 @@
 		.bar {
 			float: left;
 			color: lightgray;
-			padding: 5 10 5;
+			padding-top: 5px;
 			font-weight: 100;
 		}
 		.search_field{
@@ -70,14 +73,16 @@
 			height: 20px;
 		}
 		.headToon_menu {
-			margin-left: 25px;
+			font-family: '맑은 고딕';
+			margin-left: 7px;
 		}
 		.headToon_menu a{
 			font-weight: bold;
+			font-size: 14px;
 			letter-spacing: -2px;
 		}
 		.headToon_menu li {
-			padding: 10 14 10;
+			padding: 10 16 10;
 			display: block;
 			
 		}
@@ -85,18 +90,18 @@
 			float: right;
 		}
 		.groupToon_menu {
+			margin-left: -10px;
 			float: left;
 			display: block;
-			clear: none;
-		}
-		.groupToon_menu li {
-			padding: 10 10 10 10;
+			clear: both;
 		}
 		.groupToon_menu a{
 			font-weight: bold;
-			font-style: "맑은 고딕";
+			font-size: 13px;
+			font-style: '맑은 고딕';
 			letter-spacing: -2px;
 			color: #848383;
+			padding: 10 15 10;
 		}
 		.menu1_left a{
 			color: #000;
@@ -104,6 +109,7 @@
 		.menu1_right a{
 			color: #848383;
 		}
+		
 	</style>
 	</head>
 	<body>
@@ -124,9 +130,9 @@
 		    		<a href="naver.com" title="네이버"><img src="img/네이버로고.png" width="55px"></a> 
 		    	</div>
 				<div class="nToon">
-					<a href="#" title="만화"><img src="img/만화.png" width="45px" height="35px"></a>
+					<a href="#" title="만화"><img src="img/만화.png" width="45px" height="30px"></a>
 				</div>
-					<span class="bar">|</span>
+					<span class="bar" style="padding: 5 10 0;">|</span>
 				<div class="nNovel">
 					<a href="" title="웹소설" style="float: left; margin-top: 2px;"><img src="img/웹소설.png" width="45px"></a>
 				</div> 
@@ -174,7 +180,7 @@
 						</li>
 		    			<li>
 							<a class="menu_link" href="#">
-		    				<span class="nmGenre">장르소설</span></a>
+		    				<span class="nmGenre" style="margin-left: -10px;">장르소설</span></a>
 						</li>
 		    		</ul>  	
 		    	</div> 

@@ -15,7 +15,7 @@
 	</tr>
 	
 	<tr>
-		<td width="700" valign="top">
+		<td width="300" valign="top">
 			<jsp:include page="<%=contentPage%>" flush="false"/>
 		</td>	
 		<td width="300" valign="top">
