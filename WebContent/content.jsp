@@ -54,7 +54,8 @@
 		font-weight: 600;
 	}
 	h4 {
-		display: inline;
+		margin-top: 5px;
+		margin-bottom: -7px;
 	}
 	h5 {
 		float: right;
@@ -110,8 +111,12 @@
 		float: left;
 	}
 	.dayToon a {
-		padding-top: 10px;
 		text-align: center;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		letter-spacing: 0;
+		display: block;
+		white-space: nowrap;
 	}
 	.dayToon img {
 		padding: -1px;
@@ -121,17 +126,21 @@
 		border: 1px solid #e5e5e5;
 	}
 	.dayToon li {
-		margin-left: 5px;
-		margin-right: 5px;
+		font-size: 11px;
+		margin: 7px 5px 0px;
 		width: 87px;
-	}
-	
-	.mon, .tue, .thr, .thu, .fri, .sat, .sun {
-		
+	}	
+	.mon, .tue, .thr, .thu, .fri, .sat {	
 		text-align: center;
 		display: block;
 		float: left;
 		border-right: 1px solid #e5e5e5;
+	}
+	
+	.sun {
+		text-align: center;
+		display: block;
+		float: left;
 	}
 </style>
 </head>
@@ -229,38 +238,72 @@
 					<ul>
 						<li><a href="#">
 						<img src="https://shared-comic.pstatic.net/thumb/webtoon/183559/thumbnail/thumbnail_IMAG10_5e13c29c-f451-4430-a84a-a46495fb8cc3.jpg">신의 탑</a></li>
-						<li>뷰티풀 군바리</li>
-						<li>윈드브레이커</li>
-						<li>소녀의 세계</li>
-						<li>평범한 8반</li>
-						<li>데드라이프</li>
-						<li>용배불패 완전판</li>
-						<li>가우스전자 시즌3~4</li>
-						<li>치즈인더트랩(재)</li>
-						<li>링크보이</li>
-						<li>요괴대전</li>
-						<li>신을 죽이는 방법</li>
-						<li>마왕이 되는 중2야</li>
-						<li>이것도 친구라고</li>
-						<li>일진이 사나워</li>
-						<li>내 여자친구는 상남자</li>
-						<li>히어로메이커</li>
-						<li>삶이 우리를 속일지라도</li>
-						<li>유일무이 로맨스</li>
-						<li>푸들과 Dog거중</li>
-						<li>귀인</li>
-						<li>오늘의 순정망화</li>
-						<li>같은도장</li>
-						<li>부로콜리왕자</li>
-						<li>피플</li>
-						<li>꿈의 기업</li>
-						<li>닥터 하운드</li>
-						<li>내 어린고양이와 늙은개 (재)</li>
-						<li>하늘쌤은 피곤해</li>
-						<li>오직 나의 주인님</li>
-						<li>플랫다이어리</li>
-						<li>뱀파이어의 꽃</li>
-						<li>조선팔도 최강아이돌</li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/648419/thumbnail/thumbnail_IMAG10_1421195d-13be-4cde-bcf9-0c78d51c5ea3.jpg">뷰티풀 군바리</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/602910/thumbnail/thumbnail_IMAG10_8914c548-d69d-45d6-8008-bbc129e637c2.jpg">윈드브레이커</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/654774/thumbnail/thumbnail_IMAG10_b85f5350-ca68-4300-ab15-036d9ee060c8.jpg">소녀의 세계</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/597478/thumbnail/thumbnail_IMAG10_e4cf12ad-ee5b-441f-b237-8c15e488f6ed.jpg">평범한 8반</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/713975/thumbnail/thumbnail_IMAG10_2c34bc9e-747c-4257-bf48-a67a560dca0a.jpg">데드라이프</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/702422/thumbnail/thumbnail_IMAG10_8a7d3a98-291e-4fec-b399-7b8219c90854.jpg">니편내편</a></li>
+						<li><a href="#" class="daytitle">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/723714/thumbnail/thumbnail_IMAG10_d7d9c81f-d07b-449d-898a-54136a8a67af.jpg">용배불패 완전판</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/675554/thumbnail/thumbnail_IMAG10_66613407-1041-4f4f-ad8a-1983361f932e.jpg">가우스전자 시즌3~4</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/720121/thumbnail/thumbnail_IMAG10_705a7deb-0073-4861-83fc-533a5bf39f4c.jpg">치즈인더트랩 (재)</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/714185/thumbnail/thumbnail_IMAG10_b09f7c2d-7083-467b-95bc-4dace9c21b6f.jpg">링크보이</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/726189/thumbnail/thumbnail_IMAG10_47a237d4-4cce-46e4-8081-c4f650721f7f.jpg">요괴대전</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/714886/thumbnail/thumbnail_IMAG10_dbf1c5f4-08ec-47f6-bd6d-ab6304d907de.jpg">신을 죽이는 방법</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/694807/thumbnail/thumbnail_IMAG10_68d16602-0018-487b-ac48-3314c25c1606.jpg">마왕이 되는 중2야</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/698888/thumbnail/thumbnail_IMAG10_f15db563-bed6-416e-8163-e2efe5055023.jpg">이것도 친구라고</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/721949/thumbnail/thumbnail_IMAG10_bc410cd5-8c6b-48de-8f01-340e13ed7623.jpg">일진이 사나워</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/713581/thumbnail/thumbnail_IMAG10_fce3c3c1-2356-4916-aba2-0f561f579c1c.jpg">내 여자친구는 상남자</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/21815/thumbnail/thumbnail_title_21815_83x90.gif">히어로메이커</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/726212/thumbnail/thumbnail_IMAG10_04f8b297-1e05-4924-ae3f-b95859949126.jpg">삶이 우리를 속일지라도</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/709731/thumbnail/thumbnail_IMAG10_ed364623-7f67-49a0-bc8f-e8d894fe2c81.jpg">유일무이 로맨스</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/721559/thumbnail/thumbnail_IMAG10_82439b6a-170a-4b02-a9a5-06793062cd51.jpg">푸들과 Dog거중</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/724817/thumbnail/thumbnail_IMAG10_70187d61-08f9-408c-b479-78c5d153114e.jpg">귀인</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/716857/thumbnail/thumbnail_IMAG10_cf1f325d-f0de-452d-a996-7e95cee200f4.jpg">오늘의 순정망화</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/725830/thumbnail/thumbnail_IMAG10_f8a6b2ea-7e99-410f-8b72-f1b1e4b289cb.jpg">같은도장</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/710741/thumbnail/thumbnail_IMAG10_c0dd56d6-d08a-4552-91f2-3be36b397349.jpg">부로콜리왕자</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/706590/thumbnail/thumbnail_IMAG10_8cc2bc75-2907-4654-b60b-71e5f0af6fd2.jpg">피플</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/687915/thumbnail/thumbnail_IMAG10_e03acc4a-a1ce-4ebc-a021-e3cc07af5f20.jpg">꿈의 기업</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/700858/thumbnail/thumbnail_IMAG10_a01d69ed-7018-4f26-8c9e-e081b66037eb.jpg">닥터 하운드</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/720120/thumbnail/thumbnail_IMAG10_97de015a-6d49-442e-8fd9-ddee2c1ed6b7.jpg">내 어린고양이와 늙은개 (재)</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/723758/thumbnail/thumbnail_IMAG10_48f137ac-ddd7-4f6b-881e-7a6eff24dc39.jpg">하늘쌤은 피곤해</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/703635/thumbnail/thumbnail_IMAG10_7a8264f9-065a-4238-8fd4-c69dd45bf50d.jpg">오직 나의 주인님</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/724965/thumbnail/thumbnail_IMAG10_19a47276-a66c-4a76-b1b9-051215c307f2.jpg">플랫다이어리</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/721455/thumbnail/thumbnail_IMAG10_29b3e2e2-7a67-4c5e-872a-5d9d62ca9ae1.jpg">뱀파이어의 꽃</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/721915/thumbnail/thumbnail_IMAG10_fb5f7a2c-cfcd-4ade-b036-c35270e73669.jpg">조선팔도 최강아이돌</a></li>
 					</ul>
 				</div>
 				<div class="tue">
