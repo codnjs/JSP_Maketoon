@@ -73,7 +73,7 @@
 			height: 20px;
 		}
 		.headToon_menu {
-			font-family: '맑은 고딕';
+			font-family: '나눔고딕';
 			margin-left: 7px;
 		}
 		.headToon_menu a{
