@@ -17,9 +17,12 @@
 	a {
 		text-decoration: none;
 	}
+	.content {
+		margin-left: 5px;
+	}
 	.category_day {
-		margin-left: 4px;
 		margin-top: 15px;
+		padding-top: 8px;
 		padding-bottom: 12px;
 		display: block;
 		clear: both;
@@ -31,7 +34,7 @@
 		color: #747474;
 	}
 	.category_day li {
-		margin-right: 20px;
+		margin-right: 13px;
 		display: block;
 		float: left;
 	}
@@ -41,7 +44,8 @@
 		display: block;
 	}
 	h3 {
-		font-family: '돋움';
+		padding-left: 7px;
+		font-style: '맑은 고딕';
 		font-weight: 600;
 	}
 	.NewToons {
@@ -56,7 +60,7 @@
 	.toonSpot2 {
 		float: left;
 		width: 220px;
-		margin-right: 20px;
+		margin-right: 12px;
 		margin-top: 5px;
 	}
 	.title {
@@ -75,8 +79,12 @@
 	}
 	.ad {
 		clear: both;
+		padding-left: 7px;
+		width: 700px; 
+		height: 82px;
 	}
 	.new {
+		padding: 1px;
 		position: absolute;
 		width: 30px;
 		height: 15px;
@@ -121,8 +129,8 @@
 				<ul>
 					<li class="toonSpot2">
 						<a href="#">
-						<img class="new" src="img/new.png">
-						<img class="litoon" src="https://shared-comic.pstatic.net/thumb/webtoon/727189/thumbnail/thumbnail_IMAG04_77c5efb8-e0e5-4193-87c2-fbf72dda7da5.jpg" title="이제 곧 죽습니다">
+							<img class="new" src="img/new.png">
+							<img class="litoon" src="https://shared-comic.pstatic.net/thumb/webtoon/727189/thumbnail/thumbnail_IMAG04_77c5efb8-e0e5-4193-87c2-fbf72dda7da5.jpg" title="이제 곧 죽습니다">
 						</a>
 						<a href="#">
 						<p class="title"><strong title="이제 곧 죽습니다">이제 곧 죽습니다</strong></p>
@@ -132,8 +140,8 @@
 					</li>
 					<li class="toonSpot2">
 						<a href="#">
-						<img class="new" src="img/new.png">
-						<img src="https://shared-comic.pstatic.net/thumb/webtoon/728015/thumbnail/thumbnail_IMAG04_966c8295-dc8c-41b4-889d-85fdba5505e0.jpg" title="이제 곧 죽습니다">
+							<img class="new" src="img/new.png">
+							<img class="litoon" src="https://shared-comic.pstatic.net/thumb/webtoon/728015/thumbnail/thumbnail_IMAG04_966c8295-dc8c-41b4-889d-85fdba5505e0.jpg" title="이제 곧 죽습니다">
 						</a>
 						<a href="#">
 						
@@ -144,8 +152,8 @@
 					</li>
 					<li class="toonSpot2">
 						<a href="#">
-						<img class="new" src="img/new.png">
-						<img src="https://shared-comic.pstatic.net/thumb/webtoon/726212/thumbnail/thumbnail_IMAG04_cedecc73-cf94-4e62-bf93-e8aad98348f3.jpg" title="이제 곧 죽습니다">
+							<img class="new" src="img/new.png">
+							<img class="litoon" src="https://shared-comic.pstatic.net/thumb/webtoon/726212/thumbnail/thumbnail_IMAG04_cedecc73-cf94-4e62-bf93-e8aad98348f3.jpg" title="이제 곧 죽습니다">
 						</a>
 						<a href="#">
 						<p class="title"><strong title="삶이 우리를 속일지라도">삶이 우리를 속일지라도</strong></p>
@@ -159,7 +167,7 @@
 		
 		<!-- 광고 -->
 		<div class="ad">
-		<a href="#">광고 ^^</a>
+		<a href="#"><img src="https://ssl.pstatic.net/tveta/libs/1239/1239039/18aef564addaa8e8dc7a_20190502144351796.png" title="오나라트리트먼트"></a>
 		</div>
 	
 		<!-- 요일별 전체 웹툰 -->

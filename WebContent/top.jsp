@@ -90,10 +90,11 @@
 			float: right;
 		}
 		.groupToon_menu {
-			margin-left: -10px;
-			float: left;
 			display: block;
 			clear: both;
+			padding-top: 7px;
+			padding-bottom: 10px;
+			background: #f9f9f9;
 		}
 		.groupToon_menu a{
 			font-weight: bold;
@@ -101,7 +102,8 @@
 			font-style: '맑은 고딕';
 			letter-spacing: -2px;
 			color: #848383;
-			padding: 10 15 10;
+			padding-right: 25px;
+			
 		}
 		.menu1_left a{
 			color: #000;
@@ -130,7 +132,7 @@
 		    		<a href="naver.com" title="네이버"><img src="img/네이버로고.png" width="55px"></a> 
 		    	</div>
 				<div class="nToon">
-					<a href="#" title="만화"><img src="img/만화.png" width="45px" height="30px"></a>
+					<a href="#" title="만화"><img src="img/만화.png" width="45px" height="200px"></a>
 				</div>
 					<span class="bar" style="padding: 5 10 0;">|</span>
 				<div class="nNovel">
