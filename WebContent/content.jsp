@@ -7,58 +7,82 @@
 <title>content</title>
 <style>
 	ul {
+		padding: 0 0 0 0;
 		list-style: none;
 	}
 	
 	a{
 		text-decoration: none;
 	}
+	.category_day {
+		margin-top: 15px;
+		padding-bottom: 15px;
+		display: block;
+		clear: both;
+		border-bottom: 1px solid #e5e5e5;
+	}
 	.category_day a{
 		font-weight: 100;
 		font-family: '돋움';
+		font-size: 15px;
 		color: #848383;
 	}
 	.category_day li {
-		margin-left: 10px;
+		margin-right: 20px;
 		display: block;
 		float: left;
 	}
-
+	.category_day:after {
+		clear:both;
+		content: '';
+		display: block;
+	}
+	.category_day li a {
+		font-weight: bold;
+		color: #00d564;
+	}
+	h3 {
+		
+	}
+	.NewToons {
+		clear:none;
+	}
 </style>
 </head>
-<body>
-<!-- 이달의 신규 웹툰 -->
+<body><!-- 이달의 신규 웹툰 -->
 
 <!-- 땅 보고 걷는 아이, 무모협지, 취사병 전설이 되다, 정년이, 열불 로맨스, 구름이 피워낸 꽃, 사우러스, 같은도장, 아도나이, 이제 곧 죽습니다, 1초, 삶이 우리를 속일지라도  -->
 	<div class="content">
-		<ul class="category_day">
-			<li>
-				<a href="#">요일전체</a>
-			</li>
-			<li>
-				<a href="#">월요웹툰</a>
-			</li>
-			<li>
-				<a href="#">화요웹툰</a>
-			</li>
-			<li>
-				<a href="#">수요웹툰</a>
-			</li>
-			<li>
-				<a href="#">목요웹툰</a>
-			</li>
-			<li>
-				<a href="#">금요웹툰</a>
-			</li>
-			<li>
-				<a href="#">토요웹툰</a>
-			</li>
-			<li>
-				<a href="#">일요웹툰</a>
-			</li>
-		</ul>
+		<div>
+			<ul class="category_day">
+				<li>
+					<a href="#">요일전체</a>
+				</li>
+				<li>
+					<a href="#">월요웹툰</a>
+				</li>
+				<li>
+					<a href="#">화요웹툰</a>
+				</li>
+				<li>
+					<a href="#">수요웹툰</a>
+				</li>
+				<li>
+					<a href="#">목요웹툰</a>
+				</li>
+				<li>
+					<a href="#">금요웹툰</a>
+				</li>
+				<li>
+					<a href="#">토요웹툰</a>
+				</li>
+				<li>
+					<a href="#">일요웹툰</a>
+				</li>
+			</ul>
+		</div>
+		<h3>이달의 신규 웹툰</h3>
 		<div class="NewToons">
-		이달의 신규 웹툰!
 			<div class="toonSpot">
 				<ul>
 					<li></li>
