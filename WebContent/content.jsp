@@ -127,7 +127,7 @@
 	}
 	.dayToon li {
 		font-size: 11px;
-		margin: 8px 5px 1px 6px;
+		margin: 8px 4px 1px 6px;
 		width: 87px;
 	}	
 	.mon, .tue, .thr, .thu, .fri, .sat {	
@@ -555,41 +555,76 @@
 				<div class="fri">
 				<h4>금요웹툰</h4>	
 					<ul>
-						<li>외모지상주의</li>
-						<li>갓 오브 하이스쿨</li>
-						<li>스위트홈</li>
-						<li>더 게이머</li>
-						<li>덴마</li>
-						<li>1초</li>
-						<li>테러맨</li>
-						<li>밥 먹고 갈래요?</li>
-						<li>용비불패 완전판</li>
-						<li>개를 낳았다</li>
-						<li>가우스전자 시즌3~4</li>
-						<li>결계녀</li>
-						<li>화장 지워주는 남자</li>
-						<li>이제 곧 죽습니다</li>
-						<li>금붕어</li>
-						<li>걸어서 30분</li>
-						<li>삼국지톡</li>
-						<li>몽연</li>
-						<li>내 여자친구는 상남자</li>
-						<li>냐한남자</li>
-						<li>푸들과 Dog거중</li>
-						<li>하르모니아</li>
-						<li>몽홀</li>
-						<li>사우러스</li>
-						<li>옆집친구</li>
-						<li>버그</li>
-						<li>골든 체인지</li>
-						<li>라스트 서브미션</li>
-						<li>자취로운 생활</li>
-						<li>소녀 연대기</li>
-						<li>여기가 씨름부입니까?</li>
-						<li>꽃미남 저승사자</li>
-						<li>왕으로 살다</li>
-						<li>식스틴</li>
-						<li>꼬리</li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/641253/thumbnail/title_thumbnail_20141120112141_t83x90.jpg">외모지상주의</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/318995/thumbnail/title_thumbnail_20110407182655_t83x90.jpg">갓 오브 하이스쿨</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/701081/thumbnail/thumbnail_IMAG10_7120be5e-b5c7-4727-aba5-cb500c6098ab.jpg">스위트홈</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/552960/thumbnail/title_thumbnail_20130905153649_t83x90.jpg">더 게이머</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/725586/thumbnail/thumbnail_IMAG10_7fb4ac73-b5eb-4fe3-b95a-61acd85cc900.jpg">1초</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/119874/thumbnail/title_thumbnail_20150706185233_t83x90.jpg">덴마</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/670149/thumbnail/thumbnail_IMAG10_e7b9a026-42a9-447c-a5b5-af0c71626e50.jpg">테러맨</a></li>
+						<li><a href="#"><!-- 컷툰 -->
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/651664/thumbnail/title_thumbnail_20150326153630_t83x90.jpg">밥 먹고 갈래요?</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/723714/thumbnail/thumbnail_IMAG10_d7d9c81f-d07b-449d-898a-54136a8a67af.jpg">용비불패 완전판</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/712362/thumbnail/thumbnail_IMAG10_568fc3ff-2c5f-40f9-a8d0-34c3e59fa0a5.jpg">개를 낳았다</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/668101/thumbnail/title_thumbnail_20151203204442_t83x90.jpg">결계녀</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/675554/thumbnail/thumbnail_IMAG10_66613407-1041-4f4f-ad8a-1983361f932e.jpg">가우스전자 시즌3~4</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/710754/thumbnail/thumbnail_IMAG10_d8e56fd3-303a-47f8-bdb0-8557ddceb5ba.jpg">화장 지워주는 남자</a></li>
+						<li><a href="#"><!-- new -->
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/727189/thumbnail/thumbnail_IMAG10_f0245c6f-64d4-4b41-8d46-8ec6cae03175.jpg">이제 곧 죽습니다</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/723790/thumbnail/thumbnail_IMAG10_258b4afa-a7fd-4f7e-92c8-b10ac0b1d21b.jpg">금붕어</a></li>
+						<li><a href="#"><!-- 휴재 -->
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/700844/thumbnail/thumbnail_IMAG10_7511a21d-75f1-4ac8-9d24-df2e89f535b2.jpg">걸어서 30분</a></li>
+						<li><a href="#"><!-- 컷툰 -->
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/711422/thumbnail/thumbnail_IMAG10_93d0ea21-a066-4842-b164-1b7b363139cf.jpg">삼국지톡</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/723362/thumbnail/thumbnail_IMAG10_8888e85e-90b1-4d33-be78-c22ae25a818a.jpg">몽연</a></li>
+						<li><a href="#"><!-- 컷툰 -->
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/713581/thumbnail/thumbnail_IMAG10_fce3c3c1-2356-4916-aba2-0f561f579c1c.jpg">내 여자친구는 상남자</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/708452/thumbnail/thumbnail_IMAG10_a6869252-f41d-4dfc-8f43-db2714798982.jpg">냐한남자</a></li>
+						<li><a href="#"><!-- 컷툰 -->
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/721559/thumbnail/thumbnail_IMAG10_82439b6a-170a-4b02-a9a5-06793062cd51.jpg">푸들과 Dog거중</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/709732/thumbnail/thumbnail_IMAG10_5342cc91-e4bc-4d49-925c-ccc5a913a4ec.jpg">하르모니아</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/644112/thumbnail/title_thumbnail_20150105174647_t83x90.jpg">몽홀</a></li>
+						<li><a href="#"><!-- new -->
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/726211/thumbnail/thumbnail_IMAG10_c09c5457-d16d-4ef0-9fc6-ae761a6c3cad.jpg">사우러스</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/718019/thumbnail/thumbnail_IMAG10_dd283c57-0f9e-44b3-916a-d1d68a282398.jpg">옆집친구</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/724431/thumbnail/thumbnail_IMAG10_d3c24ff9-45d0-43a8-882e-db7923a16e01.jpg">버그</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/685460/thumbnail/title_thumbnail_20161013114305_t83x90.jpg">골든 체인지</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/723357/thumbnail/thumbnail_IMAG10_69ec3150-698f-400e-923d-bf01877034dc.jpg">라스트 서브미션</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/714834/thumbnail/thumbnail_IMAG10_e8f48301-bbcf-40d2-ac92-9a8e45ee2d5d.jpg">자취로운 생활</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/718016/thumbnail/thumbnail_IMAG10_0100ea0c-8cab-4c35-a6ab-3c748d94cccd.jpg">소녀 연대기</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/722591/thumbnail/thumbnail_IMAG10_66e60bee-95ab-45ba-8156-49853de51e17.jpg">여기가 씨름부입니까?</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/721461/thumbnail/thumbnail_IMAG10_3922dbe8-92cb-403f-a580-3750ce61cfde.jpg">꽃미남 저승사자</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/713294/thumbnail/thumbnail_IMAG10_5d620522-1f91-4336-8566-a6a87dd44733.jpg">왕으로 살다</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/703854/thumbnail/thumbnail_IMAG10_8a8a49a6-d16f-4cd5-8386-15cf735f15a1.jpg">식스틴</a></li>
+						<li><a href="#"><!-- 성인 -->
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/703851/thumbnail/thumbnail_IMAG10_d31dfbb9-f429-4e74-963e-8b6726b62465.jpg">꼬리</a></li>
 					</ul>
 				</div>	
 				<div class="sat">
