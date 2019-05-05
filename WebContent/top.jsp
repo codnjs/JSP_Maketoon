@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>top</title>
-    <style>
+    <style>		
     	body, input {
     		font-size: 12px;
     	}
@@ -36,9 +36,6 @@
 		}
 		.nToon img {
 			height: 35px;
-		}
-		.nNovel img {
-			
 		}
 		.nMain, .nToon, .nNovel {
 			float: left;
@@ -73,7 +70,7 @@
 			height: 20px;
 		}
 		.headToon_menu {
-			font-family: '나눔고딕';
+			font-family: 'NanumGothicBold';
 			margin-left: 7px;
 		}
 		.headToon_menu a{
@@ -83,8 +80,7 @@
 		}
 		.headToon_menu li {
 			padding: 10 16 10;
-			display: block;
-			
+			display: block;		
 		}
 		.btn_search {
 			float: right;
@@ -92,24 +88,34 @@
 		.groupToon_menu {
 			display: block;
 			clear: both;
-			padding-top: 7px;
+			padding-top: 9px;
 			padding-bottom: 10px;
 			background: #f9f9f9;
 		}
 		.groupToon_menu a{
 			font-weight: bold;
 			font-size: 13px;
-			font-style: '맑은 고딕';
+			font-family: 'NanumGothicBold';
 			letter-spacing: -2px;
 			color: #848383;
 			padding-right: 25px;
-			
 		}
 		.menu1_left a{
 			color: #000;
 		}
 		.menu1_right a{
 			color: #848383;
+		}
+		.head_selected {
+			padding-bottom: -2px;		
+			background-color: #00c85e;
+		}
+		.head_selected a {
+			color: #ffffff;
+		}
+		.group_selected a{
+			font-weight: bold;
+			color: #000000;
 		}
 		
 	</style>
@@ -129,12 +135,12 @@
 	    <div class="header">
 		    <div class="nClk">
 		    	<div class="nMain">
-		    		<a href="naver.com" title="네이버"><img src="img/네이버로고.png" width="55px"></a> 
+		    		<a href="naver.com" title="네이버"><img src="img/네이버로고.png" width="55px" height="15px;"></a> 
 		    	</div>
 				<div class="nToon">
-					<a href="#" title="만화"><img src="img/만화.png" width="45px" height="200px"></a>
+					<a href="#" title="만화"><img src="img/만화.png" width="45px" height="20px"></a>
 				</div>
-					<span class="bar" style="padding: 5 10 0;">|</span>
+					<span class="bar" style="padding: 5px 10px 0px;">|</span>
 				<div class="nNovel">
 					<a href="" title="웹소설" style="float: left; margin-top: 2px;"><img src="img/웹소설.png" width="45px"></a>
 				</div> 
@@ -154,66 +160,66 @@
 		    	<div class="headToon_menu">
 		    		<ul class="menu1_left">
 		    			<li>
-		    				<a class="menu_link" href="#" style="text-decoration: none;">
+		    				<a href="#">
 		    				<span class="nmHome">홈</span></a>
 		    			</li>
-		    			<li>
-							<a class="menu_link" href="#">
+		    			<li class="head_selected">
+							<a href="#">
 		    				<span class="nmWebtoon">웹툰</span></a>
 						</li>
 		    			<li>
-							<a class="menu_link" href="#">
+							<a href="#">
 		    				<span class="nmBest">베스트 도전</span></a>
 						</li>
 		    			<li>
-							<a class="menu_link" href="#">
+							<a href="#">
 		    				<span class="nmChallenge">도전만화</span></a>
 						</li>
 		    			<li>
-							<a class="menu_link" href="#">
+							<a href="#">
 		    				<span class="nmMypage">마이페이지</span></a>
 						</li>
 		    		</ul>
 		    		<span class="bar" style="padding-top: 8px;">|</span>
 		    		<ul class="menu1_right">
 		    			<li>
-							<a class="menu_link" href="#">
+							<a href="#">
 		    				<span class="nmBook">단행본 만화</span></a>
 						</li>
 		    			<li>
-							<a class="menu_link" href="#">
+							<a href="#">
 		    				<span class="nmGenre" style="margin-left: -10px;">장르소설</span></a>
 						</li>
 		    		</ul>  	
 		    	</div> 
 		    	<div class="groupToon_menu">
 		   		<ul>
-		   			<li>
-		   				<a class="group_link" href="#">
+		   			<li class="group_selected">
+		   				<a href="#">
 		   				<span class="gmDay">요일별</span></a>
 		   			</li>
 		   			<li>
-		   				<a class="group_link" href="#">
+		   				<a href="#">
 		   				<span class="gmGenre">장르별</span></a>
 		   			</li>
 		   			<li>
-		   				<a class="group_link" href="#">
+		   				<a href="#">
 		   				<span class="gmWork">작품별</span></a>
 		   			</li>
 		   			<li>
-		   				<a class="group_link" href="#">
+		   				<a href="#">
 		   				<span class="gmWriter">작가별</span></a>
 		   			</li>
 		   			<li>
-		   				<a class="group_link" href="#">
+		   				<a href="#">
 		   				<span class="gmYear">연도별</span></a>
 		   			</li>
 		   			<li>
-		   				<a class="group_link" href="#">
+		   				<a href="#">
 		   				<span class="gmTheme">테마웹툰</span></a>
 		   			</li>
 		   			<li>
-		   				<a class="group_link" href="#">
+		   				<a href="#">
 		   				<span class="gmEnd">완결웹툰</span></a>
 		   			</li>
 		   		</ul>
