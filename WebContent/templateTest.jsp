@@ -19,7 +19,7 @@
 			<jsp:include page="<%=contentPage%>" flush="false"/>
 		</td>	
 		<td valign="top">
-			<jsp:include page="left.jsp" flush="false"/>
+			<jsp:include page="right.jsp" flush="false"/>
 		</td>		
 	</tr>
 	
