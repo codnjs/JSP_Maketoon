@@ -478,42 +478,78 @@
 				<div class="thu">
 				<h4>목요웹툰</h4>	
 					<ul>
-						<li>연애혁명</li>
-						<li>기기괴괴</li>
-						<li>좀비딸</li>
-						<li>최강전설 강해효</li>
-						<li>하드캐리</li>
-						<li>금요일 베스트</li>
-						<li>간 떨어지는 동거</li>
-						<li>쿠베라</li>
-						<li>좋아하는 부분</li>
-						<li>가우스전자 시즌3~4</li>
-						<li>가담항설</li>
-						<li>트롤트랩</li>
-						<li>파도를 찾아라!</li>
-						<li>한남동 케이하우스</li>
-						<li>백귀야행지</li>
-						<li>미드나잇 체이서</li>
-						<li>알고있지만</li>
-						<li>5kg을 위하여</li>
-						<li>소유</li>
-						<li>오일머니</li>
-						<li>오늘의 순정망화</li>
-						<li>하나의 하루</li>
-						<li>아르마</li>
-						<li>헬프탑</li>
-						<li>Doll 체인지</li>
-						<li>롤랑롤랑</li>
-						<li>특수 영능력 수사반</li>
-						<li>호러와 로맨스</li>
-						<li>무모협지</li>
-						<li>35cm</li>
-						<li>킬더킹</li>
-						<li>그랜드 배틀 토너먼트</li>
-						<li>날 가져요</li>
-						<li>방 안의 코끼리</li>
-						<li>파리의 우리동네</li>
-						<li>모퉁이 뜨개방</li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/570503/thumbnail/thumbnail_IMAG10_5719a3fe-81f4-4a0c-8c27-eca1631e8384.jpg">연애혁명</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/557672/thumbnail/title_thumbnail_20130508182053_t83x90.jpg">기기괴괴</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/715772/thumbnail/thumbnail_IMAG10_45108665-e46e-49f7-9ee5-ded04dbbc6d0.jpg">좀비딸</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/570506/thumbnail/title_thumbnail_20130710192300_t83x90.jpg">최강전설 강해효</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/710761/thumbnail/thumbnail_IMAG10_9f8253a1-2318-4c0d-8d9e-f044f2203d4c.jpg">하드캐리</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/720128/thumbnail/thumbnail_IMAG10_2a8555a0-027a-4186-a7f6-e84fd253ebca.jpg">금요일 베스트</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/699415/thumbnail/thumbnail_IMAG10_64dbd565-a463-4cb8-b4bb-131bd082cc44.jpg">간 떨어지는 동거</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/131385/thumbnail/thumbnail_IMAG10_c5053bcc-3b95-473d-bfe1-e4256bf56b58.jpg">쿠베라</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/699659/thumbnail/thumbnail_IMAG10_e12f7293-375d-4612-87e7-1b1db2dc9fb0.jpg">좋아하는 부분</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/675554/thumbnail/thumbnail_IMAG10_66613407-1041-4f4f-ad8a-1983361f932e.jpg">가우스전자 시즌3~4</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/670144/thumbnail/title_thumbnail_20151230192753_t83x90.jpg">가담항설</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/701700/thumbnail/thumbnail_IMAG10_91d1c77b-9ad9-43ce-8299-ed986700c65a.jpg">트롤트랩</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/703836/thumbnail/thumbnail_IMAG10_0b455b43-e9f1-463c-9245-f95df0b37572.jpg">파도를 찾아라!</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/718707/thumbnail/thumbnail_IMAG10_0075c83f-7307-4310-91c9-5964784208a0.jpg">한남동 케이하우스</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/646358/thumbnail/title_thumbnail_20150120174956_t83x90.jpg">백귀야행지</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/724482/thumbnail/thumbnail_IMAG10_c16cc550-bcc8-4b78-b34a-702874fc8ddb.jpg">미드나잇 체이서</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/718018/thumbnail/thumbnail_IMAG10_2c6b9deb-a872-42e3-bf6f-467466becb68.jpg">알고있지만</a></li>
+						<li><a href="#"><!-- 성인 -->
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/707671/thumbnail/thumbnail_IMAG10_ab22ba8c-13bc-44b2-8493-2df2740325d6.jpg">소유</a></li>
+						<li><a href="#"><!-- new -->
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/726091/thumbnail/thumbnail_IMAG10_a3b3a632-30a8-44bb-8f0b-a3fbbc08a941.jpg">오일머니</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/716857/thumbnail/thumbnail_IMAG10_cf1f325d-f0de-452d-a996-7e95cee200f4.jpg">오늘의 순정망화</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/710639/thumbnail/thumbnail_IMAG10_b8254d4d-67b7-4f18-867b-1ff63e5f304a.jpg">5kg을 위하여</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/694805/thumbnail/thumbnail_IMAG10_8859cee3-a70b-45ff-b047-04a8be9d2c46.jpg">하나의 하루</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/710768/thumbnail/thumbnail_IMAG10_c369febb-0d09-42b1-9adc-88a0caf3a0d4.jpg">아르마</a></li>
+						<li><a href="#"><!-- new -->
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/726210/thumbnail/thumbnail_IMAG10_ac0b4698-e428-448c-885f-757b29a16233.jpg">헬프탑</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/693444/thumbnail/thumbnail_IMAG10_35e3e217-ec81-4f9c-9bb6-36c2bc956b68.jpg">Doll 체인지</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/715935/thumbnail/thumbnail_IMAG10_c39f390e-f5d9-461c-ba3a-c34edb57eaae.jpg">롤랑롤랑</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/160469/thumbnail/title_thumbnail_20100616174201_t83x90.jpg">특수 영능력 수사반</a></li>
+						<li><a href="#"><!-- new -->
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/726842/thumbnail/thumbnail_IMAG10_9a600596-d77d-4ee3-92bf-e0f06f5221cc.jpg">무모협지</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/710748/thumbnail/thumbnail_IMAG10_669c1d34-7e18-4e90-ba56-0acdac0931b9.jpg">호러와 로맨스</a></li>
+						<li><a href="#"><!-- 휴재 -->
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/703847/thumbnail/thumbnail_IMAG10_84e87edb-b292-4d7d-bd7e-c04f1f07de39.jpg">35cm</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/670145/thumbnail/title_thumbnail_20160105121235_t83x90.jpg">킬더킹</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/710755/thumbnail/thumbnail_IMAG10_c5aa159d-596e-417a-a575-efc4c7c06bc2.jpg">그랜드 배틀 토너먼트</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/721459/thumbnail/thumbnail_IMAG10_218e2b4b-ff04-4836-959b-68a6c35ee139.jpg">날 가져요</a></li>
+						<li><a href="#"><!-- new -->
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/718017/thumbnail/thumbnail_IMAG10_28ee6f0e-adef-442c-9a8c-918556e830e4.jpg">방 안의 코끼리</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/721458/thumbnail/thumbnail_IMAG10_9bb84f96-8119-40d2-a2ce-f752ce6ec860.jpg">파리의 우리동네</a></li>
+						<li><a href="#"><!-- new -->
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/727191/thumbnail/thumbnail_IMAG10_4d69a08f-3ec5-455e-8ac8-1a054f4ce8e5.jpg">모퉁이 뜨개방</a></li>
 					</ul>
 				</div>
 				<div class="fri">
