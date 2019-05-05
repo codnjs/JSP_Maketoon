@@ -40,9 +40,11 @@
 		.nMain, .nToon, .nNovel {
 			float: left;
 		}
-		.nMain, .nToon, ul li {
-			margin: 0 0 0 0;
+		.nMain, .nToon {
 			padding-left: 7px;
+		}
+		.nMain, .nToon, .headToon_menu ul li, .groupToon_menu ul li {
+			margin: 0 0 0 0;
 		    float: left;
 		}
 		.nNovel {

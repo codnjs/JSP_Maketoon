@@ -28,6 +28,7 @@
 		display: block;
 		clear: both;
 		border-bottom: 1px solid #e5e5e5;
+		width: 695px;
 	}
 	.category_day a{
 		font-weight: 100;
@@ -61,6 +62,7 @@
 	h5 {
 		float: right;
 		padding-left: 10px;
+		margin-top: 5px;
 	}
 	.NewToons {
 		margin-top: -10px;
@@ -630,41 +632,76 @@
 				<div class="sat">
 				<h4>토요웹툰</h4>	
 					<ul>
-						<li>용이산다</li>
-						<li>프리드로우</li>
-						<li>호랑이형님</li>
-						<li>유미의 세포들</li>
-						<li>부활남</li>
-						<li>공복의 저녁식사</li>
-						<li>비질란테</li>
-						<li>머니게임</li>
-						<li>먹이</li>
-						<li>놓지마 정신줄 시즌2</li>
-						<li>노곤하개</li>
-						<li>어글리후드</li>
-						<li>나이트런</li>
-						<li>갓핑크</li>
-						<li>치즈인더트랩 (재)</li>
-						<li>스터디그룹</li>
-						<li>윌유메리미</li>
-						<li>살人스타그램</li>
-						<li>우리 오빠는 아이돌</li>
-						<li>취사병 전설이 되다</li>
-						<li>열불 로맨스</li>
-						<li>5kg을 위하여</li>
-						<li>MZ-레이징 인페르노</li>
-						<li>늑대와 빨간모자</li>
-						<li>홍시는 날 좋아해</li>
-						<li>2인용 인간</li>
-						<li>고교생을 환불해 주세요</li>
-						<li>동토의 여명</li>
-						<li>고인의 명복</li>
-						<li>나는 남 너는 녀</li>
-						<li>아홉수 우리들</li>
-						<li>우주최강대스타</li>
-						<li>마음의 숙제</li>
-						<li>모죠의 일지</li>
-						<li>틴맘</li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/568986/thumbnail/thumbnail_IMAG10_3ddaaf4b-2d45-45a1-a7bc-0631a8a7b561.jpg">용이산다</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/650305/thumbnail/title_thumbnail_20161209212128_t83x90.jpg">호랑이형님</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/597447/thumbnail/title_thumbnail_20131102162055_t83x90.jpg">프리드로우</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/651673/thumbnail/thumbnail_IMAG10_659b9446-0940-494a-bb5f-5893290a84d0.jpg">유미의 세포들</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/670139/thumbnail/thumbnail_IMAG10_02b0b120-28d2-42fc-b367-447c1d172540.jpg">부활남</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/642700/thumbnail/title_thumbnail_20141219235553_t83x90.jpg">공복의 저녁식사</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/703843/thumbnail/thumbnail_IMAG10_c587a99e-c3e7-49a4-985a-88c8d950017f.jpg">비질란테</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/720190/thumbnail/thumbnail_IMAG10_cb6bddb2-2fb9-4814-b49b-56391e290f9f.jpg">머니게임</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/724274/thumbnail/thumbnail_IMAG10_9171129f-7851-4d26-ac8d-c8e179bcc81b.jpg">먹이</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/682637/thumbnail/title_thumbnail_20160729190602_t83x90.jpg">놓지마 정신줄 시즌2</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/702672/thumbnail/thumbnail_IMAG10_4313f60c-b034-49ae-9edc-877c859b64f3.jpg">노곤하개</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/64997/thumbnail/title_thumbnail_20110515001535_t83x90.jpg">나이트런</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/720121/thumbnail/thumbnail_IMAG10_705a7deb-0073-4861-83fc-533a5bf39f4c.jpg">치즈인더트랩 (재)</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/703630/thumbnail/thumbnail_IMAG10_f0337ccf-b55e-47d9-bb47-131b396f1bb6.jpg">어글리후드</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/715159/thumbnail/thumbnail_IMAG10_737639f2-e795-46b5-a83d-5fa42ad3e604.jpg">갓핑크</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/721948/thumbnail/thumbnail_IMAG10_72bdf971-8699-4e5e-aea9-e22569ad9437.jpg">스터디그룹</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/727188/thumbnail/thumbnail_IMAG10_f01cc201-02c6-4a40-8c1a-e3db0c256876.jpg">취사병 전설이 되다</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/616239/thumbnail/title_thumbnail_20161031214436_t83x90.jpg">윌유메리미</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/700843/thumbnail/thumbnail_IMAG10_6e188e8d-cd5d-4531-93e1-cc297d03a98e.jpg">우리 오빠는 아이돌</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/726095/thumbnail/thumbnail_IMAG10_17731263-4be1-4349-a74a-fda31e0a5dd4.jpg">살人스타그램</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/710639/thumbnail/thumbnail_IMAG10_b8254d4d-67b7-4f18-867b-1ff63e5f304a.jpg">5kg을 위하여</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/725552/thumbnail/thumbnail_IMAG10_22eab67b-6329-4bda-9de9-41edc8d417d2.jpg">열불 로맨스</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/712694/thumbnail/thumbnail_IMAG10_e6e99b78-fec2-414f-bb8e-2fc0246aa043.jpg">MZ-레이징 인페르노</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/716163/thumbnail/thumbnail_IMAG10_1557dca4-212c-479e-a995-6ffffa391a0e.jpg">늑대와 빨간모자</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/703839/thumbnail/thumbnail_IMAG10_701e4038-8bc6-4d4b-accc-230865d1ca25.jpg">홍시는 날 좋아해</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/710769/thumbnail/thumbnail_IMAG10_dcc06312-0493-4633-9b0a-2f56f6fa3434.jpg">2인용 인간</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/708453/thumbnail/thumbnail_IMAG10_0aa12c46-5f04-4394-b7b8-853e68ad8031.jpg">고교생을 환불해 주세요</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/678494/thumbnail/thumbnail_IMAG10_915c9e1a-ecb0-4ed0-ad7a-0fe64db3dc3b.jpg">동토의 여명</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/716776/thumbnail/thumbnail_IMAG10_00f246df-42e5-4ac0-bba1-da551be9f3c0.jpg">고인의 명복</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/721920/thumbnail/thumbnail_IMAG10_e3cc0544-d1e4-4447-930c-393aea042228.jpg">나는 남 너는 녀</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/724815/thumbnail/thumbnail_IMAG10_f18f80ab-a1a9-41d7-97fd-3f8fbebd9d9c.jpg">아홉수 우리들</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/721462/thumbnail/thumbnail_IMAG10_507205a0-6e3d-44c1-8593-af28db1ebd06.jpg">우주최강대스타</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/721919/thumbnail/thumbnail_IMAG10_aa9ef75d-b4f0-4bb8-b4ca-2103c7ee901b.jpg">마음의 숙제</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/726467/thumbnail/thumbnail_IMAG10_7868cbbf-bf3f-4e5a-84e5-27ee8f9dca0e.jpg">틴맘</a></li>
+						<li><a href="#">
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/728015/thumbnail/thumbnail_IMAG10_97de566e-d2cd-4590-b071-c678a3e85c56.jpg">모죠의 일지</a></li>
 					</ul>
 				</div>			
 				<div class="sun">

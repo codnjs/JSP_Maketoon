@@ -6,18 +6,19 @@
 %>
 
 <body>
-	<table width="1500" border="0" cellpadding="2" cellspacing="0">
+	<center>
+	<table width="100%" border="0" cellpadding="2" cellspacing="0">
 	<tr>
 		<td colspan=2>
 			<jsp:include page="top.jsp" flush="false"/>
 		</td>	
 	</tr>
 	
-	<tr>
-		<td width="300" valign="top">
+	<tr >
+		<td valign="top">
 			<jsp:include page="<%=contentPage%>" flush="false"/>
 		</td>	
-		<td width="300" valign="top">
+		<td valign="top">
 			<jsp:include page="left.jsp" flush="false"/>
 		</td>		
 	</tr>
@@ -28,6 +29,6 @@
 		</td>	
 	</tr>
 
-	
 	</table>
+	</center>
 </body>
