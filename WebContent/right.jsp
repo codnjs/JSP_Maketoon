@@ -9,7 +9,7 @@
 		list-style: none;
 	}
 	.pop_aside ul {
-		margin-top: -17px;
+		margin-top: -11px;
 		margin-bottom: 10px;
 		margin-left: -42px;
 		vertical-align: middle;
@@ -39,8 +39,8 @@
 		padding: 8px 13px;
 		border-bottom: 1px solid #e5e5e5;
 	}
-	.pop_aside_range {
-		margin-top: 5px;
+	.pop_aside_left, .pop_aisde_right {
+		height: 36px;
 	}
 	.pop_aside_left {
 		border-right: 1px solid #e5e5e5;
@@ -48,18 +48,29 @@
 	.pop_aside_right {
 		border-bottom: 1px solid #e5e5e5;
 	}
-	.pop_aside_rank ol {
-		list-style-type: decimal;
-		margin-top: 8px;
-		margin-left: -10px;
+	.pop_aside_rank  {
+		margin-top: 
+	}
+	.pop_aide_range {
+		height: 36px;
+		margin-top: 0px;
 	}
 	.pop_aside_rank li {
 		font-size: 12px;
 		font-family: '돋움';
 		display: block;
-		padding-top: 7px;
+		padding-top: 8px;
 	}
-	
+	.pop_aside_rank ol {
+		width: 239px;
+		height: 200px;
+		padding-left: 0px;
+		margin: 0px 0px;
+	}
+	.pop_aside_ranknum {
+		margin-top: 8px;
+		margin-left: 5px;
+	}
 	.hire img {
 		width: 240px;
 		height: 86px;
@@ -105,7 +116,22 @@
 				<li class="pop_aside_left"><strong>인기순</strong></li>
 				<li class="pop_aside_right"><strong>업데이트순</strong></li>
 			</ul>
+		</div>
 			<div class="pop_aside_rank">
+				<div class="pop_aside_ranknum">
+					<ol>
+						<li>1</li>
+						<li>2</li>
+						<li>3</li>
+						<li>4</li>
+						<li>5</li>
+						<li>6</li>
+						<li>7</li>
+						<li>8</li>
+						<li>9</li>
+						<li>10</li>
+					</ol>
+				</div>
 				<ol>
 					<li>오늘도 사랑스럽개</li>
 					<li>오늘도 사랑스럽개</li>
@@ -119,7 +145,6 @@
 					<li>오늘도 사랑스럽개</li>
 				</ol>
 			</div>
-		</div>
 	</div>
 	
 	<!-- 연령별 실시간 인기만화 240 * 275-->
