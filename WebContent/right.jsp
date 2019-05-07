@@ -59,17 +59,36 @@
 		font-size: 12px;
 		font-family: '돋움';
 		display: block;
-		padding-top: 8px;
+		padding-top: 7px;
 	}
 	.pop_aside_rank ol {
-		width: 239px;
-		height: 200px;
 		padding-left: 0px;
 		margin: 0px 0px;
+		float: left;
 	}
 	.pop_aside_ranknum {
-		margin-top: 8px;
-		margin-left: 5px;
+		margin-left: 15px;
+	}
+	.pop_aside_ranknum1 {
+		width: 23px;
+		height: 220px;
+		font-weight: bold;
+		color: #848383;
+	}
+	.pop_aside_ranknum2 {
+		width: 151px;	
+		
+	}	
+	.pop_aside_ranknum2 a {
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		letter-spacing: 0;
+		display: block;
+		color: #000;
+	}
+	.pop_aside_ranknum a:hover {
+		text-decoration: underline;
 	}
 	.hire img {
 		width: 240px;
@@ -119,7 +138,7 @@
 		</div>
 			<div class="pop_aside_rank">
 				<div class="pop_aside_ranknum">
-					<ol>
+					<ol class="pop_aside_ranknum1">
 						<li>1</li>
 						<li>2</li>
 						<li>3</li>
@@ -131,20 +150,23 @@
 						<li>9</li>
 						<li>10</li>
 					</ol>
-				</div>
-				<ol>
-					<li>오늘도 사랑스럽개</li>
-					<li>오늘도 사랑스럽개</li>
-					<li>오늘도 사랑스럽개</li>
-					<li>오늘도 사랑스럽개</li>
-					<li>오늘도 사랑스럽개</li>
-					<li>오늘도 사랑스럽개</li>
-					<li>오늘도 사랑스럽개</li>
-					<li>오늘도 사랑스럽개</li>
-					<li>오늘도 사랑스럽개</li>
-					<li>오늘도 사랑스럽개</li>
-				</ol>
+					<ol class="pop_aside_ranknum2">
+						<li><a href="#">세계서열 0위인 나, 남장하고 사대천왕 있는 남고가다-2부 마지막화</a></li>
+						<li><a href="#">JSP, JYP인척 sm엔터테이먼트에 들어가다?!-에필로그</a></li>
+						<li><a href="#">아빠가 된 일찐짱-1부 후기</a></li>
+						<li><a href="#">가슬이가 왜 그럴까-휴재 공지</a></li>
+						<li><a href="#">온새미로 - 외전3</a></li>
+						<li><a href="#">이쁜게 죄라면 난 사형감입니다-4화</a></li>
+						<li><a href="#">문제아들의 공주님-37화</a></li>
+						<li><a href="#">김가슬, 조선의 공주가 되다?!-프롤로그</a></li>
+						<li><a href="#">체육대회 이번에도 어우솔</a></li>
+						<li><a href="#">♧♠삼삼오오 오래보자♣♤</a></li>
+					</ol>
+					<ol class="pop_aside_ranknum3">
+						
+					</ol>
 			</div>
+		</div>
 	</div>
 	
 	<!-- 연령별 실시간 인기만화 240 * 275-->
