@@ -76,8 +76,7 @@
 		color: #848383;
 	}
 	.pop_aside_ranknum2 {
-		width: 151px;	
-		
+		width: 151px;		
 	}	
 	.pop_aside_ranknum2 a {
 		overflow: hidden;
@@ -86,6 +85,15 @@
 		letter-spacing: 0;
 		display: block;
 		color: #000;
+	}
+	.pop_aside_ranknum3 li {
+		padding-top: 6px;
+		font-weight: bold;
+	}
+	.pop_aside_ranknum4 li{
+		margin-left: 8px;
+		font-family: 'tahoma';
+		font-size: 11px;
 	}
 	.pop_aside_ranknum a:hover {
 		text-decoration: underline;
@@ -163,7 +171,28 @@
 						<li><a href="#">♧♠삼삼오오 오래보자♣♤</a></li>
 					</ol>
 					<ol class="pop_aside_ranknum3">
-						
+						<li>-</li>
+						<li>⬆</li>
+						<li>⬇</li>
+						<li>-</li>
+						<li>-</li>
+						<li>⬆</li>
+						<li>-</li>
+						<li>⬇</li>
+						<li>⬆</li>
+						<li>-</li>
+					</ol>
+					<ol class="pop_aside_ranknum4">
+						<li>0</li>
+						<li>1</li>
+						<li>1</li>
+						<li>0</li>
+						<li>0</li>
+						<li>2</li>
+						<li>0</li>
+						<li>2</li>
+						<li>1</li>
+						<li>0</li>
 					</ol>
 			</div>
 		</div>
