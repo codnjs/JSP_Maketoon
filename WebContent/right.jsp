@@ -55,6 +55,13 @@
 		height: 36px;
 		margin-top: 0px;
 	}
+	.pop_aside_range p {
+		position: absolute;
+		font-size: 7px;
+		color: #FF7012;
+		margin-left: 57px;
+		margin-top: 16px;
+	}
 	.pop_aside_rank li {
 		font-size: 12px;
 		font-family: '돋움';
@@ -115,7 +122,12 @@
 		font-size: 14px;
 		font-family: '나눔고딕';
 		font-weight: bold;
-		
+	}
+	.red {
+		color: #ff0000; 
+	}
+	.blue {
+		color: #0000ff;
 	}
 	
 	</style>
@@ -140,7 +152,8 @@
 		</div>
 		<div>
 			<ul class="pop_aside_range">
-				<li class="pop_aside_left"><strong>인기순</strong></li>
+				<li class="pop_aside_left"><p>▼</p><strong>인기순</strong></li>
+				
 				<li class="pop_aside_right"><strong>업데이트순</strong></li>
 			</ul>
 		</div>
@@ -172,14 +185,14 @@
 					</ol>
 					<ol class="pop_aside_ranknum3">
 						<li>-</li>
-						<li>⬆</li>
-						<li>⬇</li>
+						<li class="red">⬆</li>
+						<li class="blue">⬇</li>
 						<li>-</li>
 						<li>-</li>
-						<li>⬆</li>
+						<li class="red">⬆</li>
 						<li>-</li>
-						<li>⬇</li>
-						<li>⬆</li>
+						<li class="blue">⬇</li>
+						<li class="red">⬆</li>
 						<li>-</li>
 					</ol>
 					<ol class="pop_aside_ranknum4">
