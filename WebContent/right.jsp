@@ -8,8 +8,8 @@
 	ul {
 		list-style: none;
 	}
-	.pop_aside ul {
-		margin-top: -11px;
+	.pop_aside ul, .age_aside ul {
+		margin-top: 0px;
 		margin-bottom: 10px;
 		margin-left: -42px;
 		vertical-align: middle;
@@ -22,40 +22,38 @@
 		width: 239px;
 		height: 292px;
 	}
-	.pop_aside strong {
-		font-size: 12px;
+	.age_aside {
+		border: 1px solid #e5e5e5;
+		width: 239px;
+		height: 273px;
+	}
+	.pop_aside strong, .age_aside strong {
+		font-size: 11px;
 		font-family: '나눔고딕';		
 	}
-	.pop_aside ul li {
+	.pop_aside ul li, .age_aside ul li {
 		width: 120px;
-		height: 25px;
+		height: 21px;
 		display: block;
 		float: left;
 		text-align: center;
-		padding-top: 10px;
+		padding-top: 6px;
 	}
-	.pop_aside_title {
+	.pop_aside_title, .age_aside_title {
 		color: #4D4D4D;
 		padding: 8px 13px;
 		border-bottom: 1px solid #e5e5e5;
 	}
-	.pop_aside_left, .pop_aisde_right {
+	.pop_aside_left, .pop_aisde_right, .age_aside_left, .age_aside_right {
 		height: 36px;
 	}
-	.pop_aside_left {
+	.pop_aside_left, .age_aside_left {
 		border-right: 1px solid #e5e5e5;
 	}
-	.pop_aside_right {
+	.pop_aside_right, .age_aside_right {
 		border-bottom: 1px solid #e5e5e5;
 	}
-	.pop_aside_rank  {
-		margin-top: 
-	}
-	.pop_aide_range {
-		height: 36px;
-		margin-top: 0px;
-	}
-	.pop_aside_range p {
+	.pop_aside_range p, .age_aside_range p {
 		position: absolute;
 		font-size: 7px;
 		color: #FF7012;
@@ -105,6 +103,54 @@
 	.pop_aside_ranknum a:hover {
 		text-decoration: underline;
 	}
+	/* ======== age ======== */
+	.age_aside_rank li {
+		font-size: 12px;
+		font-family: '돋움';
+		display: block;
+		padding-bottom: 7px;
+	}
+	.age_aside_rank ol {
+		padding-left: 0px;
+		padding-top: 10px;
+		margin: 0px 0px;
+		float: left;
+	}
+	.age_aside_ranknum {
+		margin-left: 15px;
+	}
+	.age_aside_ranknum1 {
+		width: 23px;
+		height: 220px;
+		font-weight: bold;
+		color: #848383;
+	}
+	.age_aside_ranknum1 li {
+		
+	}
+	.age_aside_ranknum2 {
+		width: 151px;		
+	}	
+	.age_aside_ranknum2 a {
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		letter-spacing: 0;
+		display: block;
+		color: #000;
+	}
+	.age_aside_ranknum3 li {
+		padding-top: 6px;
+		font-weight: bold;
+	}
+	.age_aside_ranknum4 li{
+		margin-left: 8px;
+		font-family: 'tahoma';
+		font-size: 11px;
+	}
+	.age_aside_ranknum a:hover {
+		text-decoration: underline;
+	}
 	.hire img {
 		width: 240px;
 		height: 86px;
@@ -150,13 +196,10 @@
 		<div class="pop_aside_title">
 		<strong>인기급상승 만화</strong>
 		</div>
-		<div>
 			<ul class="pop_aside_range">
-				<li class="pop_aside_left"><p>▼</p><strong>인기순</strong></li>
-				
-				<li class="pop_aside_right"><strong>업데이트순</strong></li>
+				<a href="#"><li class="pop_aside_left"><p>▼</p><strong>인기순</strong></li></a>
+				<a href="#"><li class="pop_aside_right"><strong>업데이트순</strong></li></a>
 			</ul>
-		</div>
 			<div class="pop_aside_rank">
 				<div class="pop_aside_ranknum">
 					<ol class="pop_aside_ranknum1">
@@ -207,13 +250,51 @@
 						<li>1</li>
 						<li>0</li>
 					</ol>
+				</div>
 			</div>
-		</div>
 	</div>
 	
 	<!-- 연령별 실시간 인기만화 240 * 275-->
 	<div class="age_aside aside_div">
-	<a href="#">연령별 실시간 인기만화</a> 
+		<div class="age_aside_title">
+			<strong>10대 실시간 인기만화</strong>
+		</div>
+		<ul class="age_aside_range">
+			<li class="age_aside_left"><p>▼</p><strong>남자</strong></li>
+			<li class="age_aside_right"><strong>여자</strong></li>
+		</ul>
+		<div class="age_aside_rank">
+				<div class="age_aside_ranknum">
+					<ol class="age_aside_ranknum1">
+						<li>1</li>
+						<li>2</li>
+						<li>3</li>
+						<li>4</li>
+						<li>5</li>
+					</ol>
+					<ol class="age_aside_ranknum2">
+						<li><a href="#"><img src="https://shared-comic.pstatic.net/thumb/webtoon/626907/thumbnail/title_thumbnail_20150407141027_t83x90.jpg" width="30" height="33" title="복학왕"></a></li>
+						<li><a href="#"><img src="https://shared-comic.pstatic.net/thumb/webtoon/710747/thumbnail/thumbnail_IMAG10_b1079a8d-2d5e-49df-8f30-05b3e215170b.jpg" width="30" height="33" title="세상은 돈과 권력"></a></li>
+						<li><a href="#"><img src="https://shared-comic.pstatic.net/thumb/webtoon/701535/thumbnail/thumbnail_IMAG10_fbf4c573-a426-4e0c-80e8-620286e58986.jpg" width="30" height="33" title="격기3반"></a></li>
+						<li><a href="#"><img src="https://shared-comic.pstatic.net/thumb/webtoon/718020/thumbnail/thumbnail_IMAG10_7c551d69-62f1-4869-b365-88f38a70553f.jpg" width="30" height="33" title="귀곡의 문"></a></li>
+						<li><a href="#"><img src="https://shared-comic.pstatic.net/thumb/webtoon/715772/thumbnail/thumbnail_IMAG10_45108665-e46e-49f7-9ee5-ded04dbbc6d0.jpg" width="30" height="33" title="좀비딸"></a></li>
+					</ol>
+					<ol class="age_aside_ranknum3">
+						<li>-</li>
+						<li class="red">⬆</li>
+						<li class="blue">⬇</li>
+						<li>-</li>
+						<li>-</li>
+					</ol>
+					<ol class="age_aside_ranknum4">
+						<li>0</li>
+						<li>1</li>
+						<li>1</li>
+						<li>0</li>
+						<li>0</li>
+					</ol>
+				</div>
+			</div>
 	</div>
 	
 	<!-- 공지사항 240 * 134 -->
