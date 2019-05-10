@@ -147,9 +147,6 @@
 		width: 120px;
 		margin-top: -10px;
 	}
-	.age_aside_ranknum4 {
-	
-	}
 	.age_pop ul li {
 		padding-top: 6px;
 		text-align: left;
@@ -162,16 +159,18 @@
 	.age_pop a {
 		color: #000;
 	}
-	.age_aside_ranknum4 li{
+	.age_aside_ranknum4, .age_aside_ranknum5 {
+		padding-top: 20px;
+	}
+	.age_aside_ranknum4 li, .age_aside_ranknum5 li{
 		margin-left: 8px;
 		font-family: 'tahoma';
 		font-size: 11px;
-		
+		padding-bottom: 25px;
 	}
 	.age_aside_ranknum a:hover {
 		text-decoration: underline;
 	}
-	.age_aside 
 	.hire img {
 		width: 240px;
 		height: 86px;
@@ -313,15 +312,14 @@
 							</div>
 						</li>
 					</ol>
-					<ol class="age_aside_ranknum4">
+					<ol class="age_aside_ranknum4" style="padding-top:20px;">
 						<li>-</li>
 						<li class="red">⬆</li>
 						<li class="blue">⬇</li>
 						<li>-</li>
 						<li>-</li>
-						
 					</ol>
-					<ol class="age_aside_ranknum5">
+					<ol class="age_aside_ranknum5" style="padding-top:21px; padding-left:7px;">
 						<li>0</li>
 						<li>1</li>
 						<li>1</li>
