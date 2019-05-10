@@ -73,6 +73,7 @@
 	}
 	.pop_aside_ranknum {
 		margin-left: 15px;
+		padding-top: 27px;
 	}
 	.pop_aside_ranknum1 {
 		width: 23px;
@@ -126,11 +127,14 @@
 		color: #848383;
 	}
 	.age_aside_ranknum1 li {
-		
+		padding-bottom: 25px;
 	}
 	.age_aside_ranknum2 {
-		width: 151px;		
-	}	
+		float: left;
+	}
+	.age_aside_ranknum2 li {
+		padding-bottom: 5.5px;
+	}
 	.age_aside_ranknum2 a {
 		overflow: hidden;
 		text-overflow: ellipsis;
@@ -139,18 +143,35 @@
 		display: block;
 		color: #000;
 	}
-	.age_aside_ranknum3 li {
+	.age_aside_ranknum3 {
+		width: 120px;
+		margin-top: -10px;
+	}
+	.age_aside_ranknum4 {
+	
+	}
+	.age_pop ul li {
 		padding-top: 6px;
-		font-weight: bold;
+		text-align: left;
+		padding-left: 10px;
+		padding-bottom: 12px;
+	}
+	.age_pop {
+		margin-top: -15px;
+	}
+	.age_pop a {
+		color: #000;
 	}
 	.age_aside_ranknum4 li{
 		margin-left: 8px;
 		font-family: 'tahoma';
 		font-size: 11px;
+		
 	}
 	.age_aside_ranknum a:hover {
 		text-decoration: underline;
 	}
+	.age_aside 
 	.hire img {
 		width: 240px;
 		height: 86px;
@@ -280,13 +301,27 @@
 						<li><a href="#"><img src="https://shared-comic.pstatic.net/thumb/webtoon/715772/thumbnail/thumbnail_IMAG10_45108665-e46e-49f7-9ee5-ded04dbbc6d0.jpg" width="30" height="33" title="좀비딸"></a></li>
 					</ol>
 					<ol class="age_aside_ranknum3">
+						<li>
+							<div class="age_pop">
+								<ul>
+									<li><a href="#">복학왕</a><br><a href="#">기안84</a></li>
+									<li><a href="#">세상은 돈과 권력</a><br><a href="#">한동우/이도희</a></li>
+									<li><a href="#">격기3반</a><br><a href="#">이학</a></li>
+									<li><a href="#">귀곡의 문</a><br><a href="#">삼촌</a></li>
+									<li><a href="#">좀비딸</a><br><a href="#">이윤창</a></li>
+								</ul>
+							</div>
+						</li>
+					</ol>
+					<ol class="age_aside_ranknum4">
 						<li>-</li>
 						<li class="red">⬆</li>
 						<li class="blue">⬇</li>
 						<li>-</li>
 						<li>-</li>
+						
 					</ol>
-					<ol class="age_aside_ranknum4">
+					<ol class="age_aside_ranknum5">
 						<li>0</li>
 						<li>1</li>
 						<li>1</li>
@@ -294,6 +329,7 @@
 						<li>0</li>
 					</ol>
 				</div>
+				
 			</div>
 	</div>
 	
