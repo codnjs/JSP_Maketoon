@@ -7,7 +7,7 @@
 
 <body>
 	<center>
-	<table width="100%" border="0" cellpadding="2" cellspacing="0">
+	<table width="980px" border="0" cellpadding="2" cellspacing="0">
 	<tr>
 		<td colspan=2>
 			<jsp:include page="top.jsp" flush="false"/>

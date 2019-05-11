@@ -17,6 +17,11 @@
 		a {
 			text-dacoration: none;
 		}
+		.btn_search img {
+			width: 20px;
+			border: none;
+			cursor: pointer;
+		}
 		.header {
 			padding-bottom: 8px;
 			border-bottom: 1px solid #e5e5e5;
@@ -30,12 +35,14 @@
 			display: block;
 		}
 		.nMain img {
-			width: 60px;
-			height: 28px;
-			margin-top: 4px;
+			width: 52px;
+			height: 25px;
+			margin-top: 6px;
 		}
 		.nToon img {
-			height: 35px;
+			width: 43px;
+			height: 32px;
+			margin-top: 2px;
 		}
 		.nMain, .nToon, .nNovel {
 			float: left;
@@ -48,7 +55,7 @@
 		    float: left;
 		}
 		.nNovel {
-			margin-right: 40px;
+			margin-right: 30px;
 		}
 		.searchWord {
 			line-height: 25px;
@@ -86,6 +93,7 @@
 		}
 		.btn_search {
 			float: right;
+			margin-top: 2px;
 		}
 		.groupToon_menu {
 			display: block;
@@ -140,19 +148,19 @@
 		    		<a href="naver.com" title="네이버"><img src="img/네이버로고.png" width="55px" height="15px;"></a> 
 		    	</div>
 				<div class="nToon">
-					<a href="#" title="만화"><img src="img/만화.png" width="45px" height="20px"></a>
+					<a href="#" title="만화"><img src="img/만화.png"></a>
 				</div>
-					<span class="bar" style="padding: 5px 10px 0px;">|</span>
+					<span class="bar" style="padding: 10px 5px 0px;">|</span>
 				<div class="nNovel">
-					<a href="" title="웹소설" style="float: left; margin-top: 2px;"><img src="img/웹소설.png" width="45px"></a>
+					<a href="" title="웹소설" style="float: left; margin-top: 3px;"><img src="img/웹소설.png" width="45px"></a>
 				</div> 
 				<fieldset class="search_field">	
 					<form id="searchForm" name="search" method="get" action="#">
 							<input type="text" placeholder="제목/작가로 검색할 수 있습니다." name="searchWord" title="검색어 입력"
 							maxlength="20" class="searchWord">
-							<button type="button" class="btn_search" onclick="" value="검색" title="검색" alt="검색">
+							<a href="#" class="btn_search" onclick="" value="검색" title="검색" alt="검색"><img src="img/magnifying-glass.png">
 								<!-- <img src="">  돋보기 아이콘 추가 -->
-							</button>
+							</a>
 					</form>
 				</fieldset>
 		    </div>    

@@ -18,6 +18,9 @@
 	.aside_div {
 		margin-top: 8px;
 	}
+	.pop_aside_range, .age_aside_range {
+		padding-left: 40px;
+	}
 	.pop_aside {
 		border: 1px solid #e5e5e5;
 		width: 239px;
@@ -28,7 +31,7 @@
 		width: 239px;
 		height: 273px;
 	}
-	.pop_aside strong, .age_aside strong, .ad_aside strong {
+	.pop_aside strong, .age_aside strong, .ad_aside strong, .notice_aside strong {
 		font-size: 11px;
 		font-family: '나눔고딕';		
 	}
@@ -40,7 +43,7 @@
 		text-align: center;
 		padding-top: 6px;
 	}
-	.pop_aside_title, .age_aside_title, .ad_aside_title {
+	.pop_aside_title, .age_aside_title, .ad_aside_title, .notice_aside_title {
 		color: #4D4D4D;
 		padding: 8px 13px;
 		border-bottom: 1px solid #e5e5e5;
@@ -54,7 +57,7 @@
 	.pop_aside_right, .age_aside_right {
 		border-bottom: 1px solid #e5e5e5;
 	}
-	.pop_aside_range p, .age_aside_range p, .ad_aside_title p {
+	.pop_aside_range p, .age_aside_range p, .ad_aside_title p, .notice_aside_title p {
 		position: absolute;
 		font-size: 7px;
 		color: #FF7012;
@@ -149,10 +152,8 @@
 		margin-top: -10px;
 	}
 	.age_pop ul li {
-		padding-top: 6px;
 		text-align: left;
-		padding-left: 10px;
-		padding-bottom: 12px;
+		padding: 6px 0 12px 50px;
 	}
 	.age_pop {
 		margin-top: -15px;
@@ -173,17 +174,17 @@
 		text-decoration: underline;
 	}
 	.ad_aside {
+		
+	}
+	.notice_aside_title a {
+		font-size: 11px;
+		float: right;
+	}
+	.notice_aside {
 		width: 238px;
 		height: 132px;
 		border: 1px solid #e5e5e5;
 		margin-bottom: 8px;
-	}
-	.ad_aside_title a {
-		font-size: 11px;
-		float: right;
-	}
-	.notice {
-		
 	}
 	.notice ul li {
 		font-size: 12px;
@@ -192,7 +193,7 @@
 	}
 	.notice ul {
 		font-family:'돋움';
-		width: 215px;
+		width: 220px;
 		margin-top: 10px;
 		padding: 0 0 0 20;
 	}
@@ -377,8 +378,8 @@
 			</div>
 	</div>
 	<!-- 공지사항 240 * 134 -->
-	<div class="ad_aside aside_div">
-		<div class="ad_aside_title">
+	<div class="notice_aside aside_div">
+		<div class="notice_aside_title">
 			<strong>공지사항</strong>
 			<a href="#"><p style="margin-top: 2px; margin-left: -11px;">▶</p>더보기</a>
 		</div>

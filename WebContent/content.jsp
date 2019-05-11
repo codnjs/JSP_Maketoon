@@ -45,7 +45,7 @@
 		content: '';
 		display: block;
 	}
-	h3, h4, h5 {
+	h3, h5 {
 		font-style: '맑은 고딕';
 	}
 	h4, h5 {
@@ -56,8 +56,10 @@
 		font-weight: 600;
 	}
 	h4 {
-		margin-top: 5px;
-		margin-bottom: -7px;
+		margin-top: 4px;
+		margin-bottom: -5px;
+		font-family: '나눔고딕';
+		font-size: 12px;
 	}
 	h5 {
 		float: right;
@@ -132,6 +134,9 @@
 		margin: 8px 4px 1px 6px;
 		width: 87px;
 	}	
+	.dayToon ul {
+		margin-top: 10px;
+	}
 	.mon, .tue, .thr, .thu, .fri, .sat {	
 		text-align: center;
 		display: block;
