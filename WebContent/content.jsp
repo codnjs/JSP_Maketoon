@@ -46,7 +46,7 @@
 		display: block;
 	}
 	h3, h5 {
-		font-style: '맑은 고딕';
+		font-style: '맑은고딕';
 	}
 	h4, h5 {
 		font-weight: bold;
@@ -56,18 +56,17 @@
 		font-weight: 600;
 	}
 	h4 {
-		margin-top: 4px;
-		margin-bottom: -5px;
+		margin-top: 8px;
+		margin-bottom: -3px;
 		font-family: '나눔고딕';
 		font-size: 12px;
 	}
 	h5 {
 		float: right;
 		padding-left: 10px;
-		margin-top: 5px;
 	}
 	.NewToons {
-		margin-top: -10px;
+		margin-top: -15px;
 		clear: none;
 	}
 	.litoon {
@@ -95,7 +94,7 @@
 		text-overflow: ellipsis;
 	}
 	.ad {
-		margin-top: 15px;
+		padding-top: 18px;
 		clear: both;
 		width: 700px; 
 		height: 82px;
@@ -107,11 +106,14 @@
 		height: 15px;
 	}
 	.daytoon_wrap {
+		padding-top: 15px;
 		width: 693px;
+		margin-bottom: -15px;
 	}
 	.dayToon {
-		margin-top: -15px;
+		margin-top: -19px;
 		float: left;
+		border-bottom: 1px solid #e5e5e5;
 	}
 	.dayToon a {
 		text-align: center;
@@ -125,15 +127,24 @@
 		width: 83px;
 		height: 90px;
 		display: block;
-		border: 1px solid #e5e5e5;
+		
 		margin-bottom: 2px;
 		padding-top: -1px;
 	}
+	#not_today {
+		border-left: 1px solid #e5e5e5;
+	}
+	#not_today img{
+		border: 1px solid #e5e5e5;
+	}
 	.dayToon li {
 		font-size: 11px;
-		margin: 8px 4px 1px 6px;
+		margin: 0px 4px 6px 6px;
 		width: 87px;
 	}	
+	.dayToon li a:hover {
+		text-decoration: underline;
+	}
 	.dayToon ul {
 		margin-top: 10px;
 	}
@@ -142,8 +153,8 @@
 		display: block;
 		float: left;
 		border-right: 1px solid #e5e5e5;
+		height: 4340px;
 	}
-	
 	.sun {
 		text-align: center;
 		display: block;
@@ -154,6 +165,19 @@
 		color: #00c85e;
 		padding-bottom: 12px;
 		border-bottom: 2px solid #00c85e;
+	}
+	#today {
+		background-color: #3a3a3a;
+		border: 1px solid #2c2c2c;
+		width: 98px;
+		position: relative;
+		height: auto;
+	}
+	#today a, #today h4 {
+		color: #fdcb00;
+	}
+	#today li img{
+		border: 1px solid #2c2c2c;
 	}
 </style>
 </head>
@@ -244,10 +268,10 @@
 		<h5><a href="#">별점순</a></h5>
 		<h5><a href="#">조회순</a></h5>
 		<h5><a href="#">업데이트순</a></h5>
-			<h3 style="padding-bottom: 10px; border-bottom: 1px solid #e5e5e5;">요일별 전체 웹툰</h3>
+			<h3 style="padding-bottom: 5px; border-bottom: 1px solid #e5e5e5;">요일별 전체 웹툰</h3>
 			
 			<div class="dayToon">
-				<div class="mon">
+				<div class="mon" id="today">
 				<h4>월요웹툰</h4>					
 					<ul>
 						<li><a href="#">
@@ -320,7 +344,7 @@
 						<img src="https://shared-comic.pstatic.net/thumb/webtoon/721915/thumbnail/thumbnail_IMAG10_fb5f7a2c-cfcd-4ade-b036-c35270e73669.jpg">조선팔도 최강아이돌</a></li>
 					</ul>
 				</div>
-				<div class="tue">
+				<div class="tue" id="not_today">
 				<h4>화요웹툰</h4>
 					<ul>
 						<li><a href="#">
@@ -401,7 +425,7 @@
 						<img src="https://shared-comic.pstatic.net/thumb/webtoon/722728/thumbnail/thumbnail_IMAG10_60eeeb55-9a13-4849-ac34-df6e56ab0c2c.jpg">꿀벌과 아카시아</a></li>
 					</ul>
 				</div>
-				<div class="thr">
+				<div class="thr" id="not_today">
 				<h4>수요웹툰</h4>	
 					<ul>
 						<li><a href="#">
@@ -482,7 +506,7 @@
 						<img src="https://shared-comic.pstatic.net/thumb/webtoon/728015/thumbnail/thumbnail_IMAG10_97de566e-d2cd-4590-b071-c678a3e85c56.jpg">모죠의 일지</a></li>
 					</ul>
 				</div>
-				<div class="thu">
+				<div class="thu" id="not_today">
 				<h4>목요웹툰</h4>	
 					<ul>
 						<li><a href="#">
@@ -559,7 +583,7 @@
 						<img src="https://shared-comic.pstatic.net/thumb/webtoon/727191/thumbnail/thumbnail_IMAG10_4d69a08f-3ec5-455e-8ac8-1a054f4ce8e5.jpg">모퉁이 뜨개방</a></li>
 					</ul>
 				</div>
-				<div class="fri">
+				<div class="fri" id="not_today">
 				<h4>금요웹툰</h4>	
 					<ul>
 						<li><a href="#">
@@ -634,7 +658,7 @@
 						<img src="https://shared-comic.pstatic.net/thumb/webtoon/703851/thumbnail/thumbnail_IMAG10_d31dfbb9-f429-4e74-963e-8b6726b62465.jpg">꼬리</a></li>
 					</ul>
 				</div>	
-				<div class="sat">
+				<div class="sat" id="not_today">
 				<h4>토요웹툰</h4>	
 					<ul>
 						<li><a href="#">
@@ -709,7 +733,7 @@
 						<img src="https://shared-comic.pstatic.net/thumb/webtoon/728015/thumbnail/thumbnail_IMAG10_97de566e-d2cd-4590-b071-c678a3e85c56.jpg">모죠의 일지</a></li>
 					</ul>
 				</div>			
-				<div class="sun">
+				<div class="sun" id="not_today">
 				<h4>일요웹툰</h4>	
 					<ul>
 						<li><a href="#">

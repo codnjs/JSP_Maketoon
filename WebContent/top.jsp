@@ -34,6 +34,27 @@
 			content: '';
 			display: block;
 		}
+		.nClk_right {
+			width: 76px;
+			float: right;
+			margin-top: 10px;
+			
+		}
+		.login {
+			border: 1px solid #e5e5e5;
+			font-size: 12px;
+			padding: 4px 5px;
+			float: left;
+		}
+		.etc {
+			margin-top: 2px;
+			width: 15px;
+			float: right;
+		}
+		.etc:hover {
+			background: url(img/etc_2.png);
+			width: 15px;
+		}
 		.nMain img {
 			width: 52px;
 			height: 25px;
@@ -127,6 +148,21 @@
 			font-weight: bold;
 			color: #000000;
 		}
+		.question {
+			float: right;
+			font-size: 12px;
+			margin-top: 5px;
+		}
+		.question img {
+			
+		}
+		.question a{
+			padding-left: 5px;
+		}
+		.question a:hover {
+			text-decoration: underline;
+			cursor: pointer;
+		}
 		
 	</style>
 	</head>
@@ -154,7 +190,12 @@
 				<div class="nNovel">
 					<a href="" title="웹소설" style="float: left; margin-top: 3px;"><img src="img/웹소설.png" width="45px"></a>
 				</div> 
+				<div class="nClk_right">
+					<a href="#"><div class="login">로그인</div></a>
+					<a href="#"><div class="etc"><img src="img/etc_1.png" width="20px"></div></a>
+				</div>
 				<fieldset class="search_field">	
+				
 					<form id="searchForm" name="search" method="get" action="#">
 							<input type="text" placeholder="제목/작가로 검색할 수 있습니다." name="searchWord" title="검색어 입력"
 							maxlength="20" class="searchWord">
@@ -162,10 +203,15 @@
 								<!-- <img src="">  돋보기 아이콘 추가 -->
 							</a>
 					</form>
+				
 				</fieldset>
+				
 		    </div>    
 	    </div>
 	    <!-- <hr> 구분선 -->
+	    	<div class="question">
+	    		<img src="img/notice.png" width="18px" title="회색빛 일상에 지친 당신을 기다릴게요, &lt;모퉁이 뜨개방&gt;"><a href="#">회색빛 일상에 지친 당신을 기다릴게요, &lt;모퉁이 뜨개방&gt;</a>
+	    	</div>
 		    <div class="menu">
 		    	<div class="headToon_menu">
 		    		<ul class="menu1_left">
