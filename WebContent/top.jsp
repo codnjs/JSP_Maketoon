@@ -153,9 +153,6 @@
 			font-size: 12px;
 			margin-top: 5px;
 		}
-		.question img {
-			
-		}
 		.question a{
 			padding-left: 5px;
 		}
