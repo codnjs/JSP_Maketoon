@@ -127,7 +127,6 @@
 		width: 83px;
 		height: 90px;
 		display: block;
-		
 		margin-bottom: 2px;
 		padding-top: -1px;
 	}
