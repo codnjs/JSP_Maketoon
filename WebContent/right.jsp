@@ -4,6 +4,7 @@
 <style>
 	a {
 		text-decoration: none;
+		color: #000;
 	}
 	ul {
 		list-style: none;
@@ -27,7 +28,7 @@
 		width: 239px;
 		height: 273px;
 	}
-	.pop_aside strong, .age_aside strong {
+	.pop_aside strong, .age_aside strong, .ad_aside strong {
 		font-size: 11px;
 		font-family: '나눔고딕';		
 	}
@@ -39,7 +40,7 @@
 		text-align: center;
 		padding-top: 6px;
 	}
-	.pop_aside_title, .age_aside_title {
+	.pop_aside_title, .age_aside_title, .ad_aside_title {
 		color: #4D4D4D;
 		padding: 8px 13px;
 		border-bottom: 1px solid #e5e5e5;
@@ -53,7 +54,7 @@
 	.pop_aside_right, .age_aside_right {
 		border-bottom: 1px solid #e5e5e5;
 	}
-	.pop_aside_range p, .age_aside_range p {
+	.pop_aside_range p, .age_aside_range p, .ad_aside_title p {
 		position: absolute;
 		font-size: 7px;
 		color: #FF7012;
@@ -168,9 +169,57 @@
 		font-size: 11px;
 		padding-bottom: 25px;
 	}
-	.age_aside_ranknum a:hover {
+	.age_aside_ranknum a:hover, .ad_aside_title a:hover, .notice a:hover {
 		text-decoration: underline;
 	}
+	.ad_aside {
+		width: 238px;
+		height: 132px;
+		border: 1px solid #e5e5e5;
+		margin-bottom: 8px;
+	}
+	.ad_aside_title a {
+		font-size: 11px;
+		float: right;
+	}
+	.notice {
+		
+	}
+	.notice ul li {
+		font-size: 12px;
+		list-style: disc;
+		margin-bottom: 8px;
+	}
+	.notice ul {
+		font-family:'돋움';
+		width: 215px;
+		margin-top: 10px;
+		padding: 0 0 0 20;
+	}
+	.notice a {
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		letter-spacing: 0;
+		display: block;
+	}
+	.notice_bold {
+		font-weight: bold;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/* ======== etc ======== */
 	.hire img {
 		width: 240px;
 		height: 86px;
@@ -195,8 +244,8 @@
 	.blue {
 		color: #0000ff;
 	}
-	
 	</style>
+	
 <div class="aside">
 	<!-- 웹툰 올리기 -->
 	<div class="btn_upload aside_div">
@@ -210,7 +259,6 @@
 	<div class="newtoon_aside aside_div">
 	<a href="#"><img src="https://naverwebtoon-phinf.pstatic.net/20190425_143/1556158931507qnY1V_JPEG/upload_2570184143796825746.JPEG?type=p100" width="240" height="97" title="강호의 대머리 무모협지"></a> 
 	</div>
-
 	<!-- 인기급상승 만화 240 * 292 -->
 	<div class="pop_aside aside_div">
 		<div class="pop_aside_title">
@@ -273,15 +321,14 @@
 				</div>
 			</div>
 	</div>
-	
 	<!-- 연령별 실시간 인기만화 240 * 275-->
 	<div class="age_aside aside_div">
 		<div class="age_aside_title">
 			<strong>10대 실시간 인기만화</strong>
 		</div>
 		<ul class="age_aside_range">
-			<li class="age_aside_left"><p>▼</p><strong>남자</strong></li>
-			<li class="age_aside_right"><strong>여자</strong></li>
+			<a href="#"><li class="age_aside_left"><p>▼</p><strong>남자</strong></li></a>
+			<a href="#"><li class="age_aside_right"><strong>여자</strong></li></a>
 		</ul>
 		<div class="age_aside_rank">
 				<div class="age_aside_ranknum">
@@ -327,26 +374,34 @@
 						<li>0</li>
 					</ol>
 				</div>
-				
 			</div>
 	</div>
-	
 	<!-- 공지사항 240 * 134 -->
 	<div class="ad_aside aside_div">
-	<a href="#">공지사항</a> 
+		<div class="ad_aside_title">
+			<strong>공지사항</strong>
+			<a href="#"><p style="margin-top: 2px; margin-left: -11px;">▶</p>더보기</a>
+		</div>
+		<div class="notice">
+			<ul>
+				<li title="네이버웹툰 지상최대공모전 개최 안내"><a href="#" class="notice_bold">총상금 15억! 지상최대공모전 안내</a></li>
+				<li title="[안내] 베스트도전 작품도 네이버웹툰 앱으로 만나보세요 (안드로이드/iOS)"><a href="#" class="notice_bold">베스트도전 개편 안내 (안드로이드/iOS)</a></li>
+				<li title="2019년 4월 베스트 도전만화 승격작 발표"><a href="#">4월 베스트 도전만화 승격작 발표</a></li>
+				<li title="2019년 4~5월 '학원성장드라마'장르 포텐업 선정작 발표!"><a href="#">'학원성장드라마'장르 포텐업 선정작 발표!</a></li>
+			</ul>
+		</div>
 	</div>
-	
 	<!-- 묶음 3개 240 * 86 -->
 	<div class="hire">
 		<a href="#" class="aside_div"><img src="https://ssl.pstatic.net/static/comic/images/bnr_partnership.jpg"></a> <br>
 		<a href="#" class="aside_div"><img src="https://ssl.pstatic.net/static/comic/images/bnr_joinus.jpg"></a> <br>
 		<a href="#" class="aside_div"><img src="https://ssl.pstatic.net/static/comic/images/bnr_careers.jpg"></a> <br>
 	</div>
-	
 	<!-- FAQ 240 * 34 -->
-	<div class="faq aside_div">
-	 <a href="#">만화 FAQ</a>
-	 </div><br><br><br><br>
+	<div class="faq">
+		<a href="#" class="aside_div">만화 FAQ</a>
+	</div>
+	
 </div>
-
+<br><br><br><br>
 </html>
