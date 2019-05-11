@@ -179,6 +179,10 @@
 	#today li img{
 		border: 1px solid #2c2c2c;
 	}
+	.content_bottom {
+		height: 158px;
+		clear: both;
+	}
 </style>
 </head>
 <body><!-- 이달의 신규 웹툰 -->
@@ -809,6 +813,11 @@
 					</ul>
 				</div>
 			</div>
+		</div>
+	
+		<!-- 맨아래 -->
+		<div class="content_bottom">
+			<
 		</div>
 	</div>
 </body>
