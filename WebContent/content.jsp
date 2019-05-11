@@ -519,7 +519,7 @@
 						<li><a href="#">
 						<img src="https://shared-comic.pstatic.net/thumb/webtoon/715772/thumbnail/thumbnail_IMAG10_45108665-e46e-49f7-9ee5-ded04dbbc6d0.jpg">좀비딸</a></li>
 						<li><a href="#">
-						<img src="https://shared-comic.pstatic.net/thumb/webtoon/570506/thumbnail/title_thumbnail_20130710192300_t83x90.jpg">최강전설 강해효</a></li>
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/602910/thumbnail/thumbnail_IMAG10_8914c548-d69d-45d6-8008-bbc129e637c2.jpg">최강전설 강해효</a></li>
 						<li><a href="#">
 						<img src="https://shared-comic.pstatic.net/thumb/webtoon/710761/thumbnail/thumbnail_IMAG10_9f8253a1-2318-4c0d-8d9e-f044f2203d4c.jpg">하드캐리</a></li>
 						<li><a href="#">
