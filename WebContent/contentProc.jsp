@@ -4,7 +4,6 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>content</title>
 <style>
 	body, .toonSpot {
 		font-size: 12px;

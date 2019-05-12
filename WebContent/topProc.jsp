@@ -4,7 +4,6 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>top</title>
     <style>		
     	body, input {
     		font-size: 12px;

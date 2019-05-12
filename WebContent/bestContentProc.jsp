@@ -160,7 +160,7 @@
 		display: block;
 		white-space: nowrap;
 	}
-	.best_fristgroup {
+	.best_fristgroup, .best_secondgroup {
 		border-bottom: 1px solid #e5e5e5;
 		height: 460px;
 	}
@@ -177,7 +177,7 @@
 		<div class="cateogry_p">
 			<ul class="category_day">
 				<li class="category_selected">
-					<a href="content.jsp">전체만화</a>
+					<a href="best.jsp">전체만화</a>
 				</li>
 				<li>
 					<a href="episode.jsp">에피소드</a>

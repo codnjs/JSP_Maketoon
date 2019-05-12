@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <head>
+<title>네이버 만화 > 요일별  웹툰 > 전체웹툰</title>
 	<style>
 		@font-face {
 		  font-family: 'NanumGothicBold';
