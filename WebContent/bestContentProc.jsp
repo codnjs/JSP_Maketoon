@@ -180,43 +180,43 @@
 					<a href="content.jsp">전체만화</a>
 				</li>
 				<li>
-					<a href="monToon.jsp">에피소드</a>
+					<a href="episode.jsp">에피소드</a>
 				</li>
 				<li>
-					<a href="tueToon.jsp">옴니버스</a>
+					<a href="omnibus.jsp">옴니버스</a>
 				</li>
 				<li style="margin-right: 11px;">
-					<a href="wedToon.jsp">스토리&nbsp;| </a> 
+					<a href="story.jsp">스토리&nbsp;| </a> 
 				</li>
 				<li id="narrow">
-					<a href="thuToon.jsp">일상</a>
+					<a href="daily.jsp">일상</a>
 				</li>
 				<li id="narrow">
-					<a href="friToon.jsp">개그</a>
+					<a href="comedy.jsp">개그</a>
 				</li>
 				<li id="narrow">
-					<a href="satToon.jsp">판타지</a>
+					<a href="fantasy.jsp">판타지</a>
 				</li>
 				<li id="narrow">
-					<a href="sunToon.jsp">액션</a>
+					<a href="action.jsp">액션</a>
 				</li>
 				<li id="narrow">
-					<a href="sunToon.jsp">드라마</a>
+					<a href="drama.jsp">드라마</a>
 				</li>
 				<li id="narrow">
-					<a href="sunToon.jsp">순정</a>
+					<a href="purelove.jsp">순정</a>
 				</li>
 				<li id="narrow">
-					<a href="sunToon.jsp">감성</a>
+					<a href="gamsung.jsp">감성</a>
 				</li>
 				<li id="narrow">
-					<a href="sunToon.jsp">스릴러</a>
+					<a href="thiller.jsp">스릴러</a>
 				</li>
 				<li id="narrow">
-					<a href="sunToon.jsp">시대극</a>
+					<a href="historical.jsp">시대극</a>
 				</li>
 				<li id="narrow">
-					<a href="sunToon.jsp">스포츠</a>
+					<a href="sport.jsp">스포츠</a>
 				</li>
 			</ul>
 			<p style="font-size: 12px; color: #848383;">베스트 도전만화는 누구나 참여할 수 있는 창작만화(UCC) 게시판 입니다.</p><br>
