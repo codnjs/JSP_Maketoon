@@ -232,14 +232,6 @@
 		<div class="dayToon_mon">
 			<ul class="best_img_list">
 				<div class="best_fristgroup">
-					<li><a href="#"><img src="https://shared-comic.pstatic.net/thumb/nas/user_contents_data/challenge_comic/2019/03/10/yj180/thumbnail_83x90143a9cd6_2886_4ce0_91c1_11546a2cd152_00001146.JPEG"></a>
-					<dl>
-						<dt><a href="#">나의 작은 조</a></dt>
-						<dd><a href="#">yj180</a></dd>
-						<dd class="best_all_view">만화 소개 및 설명</dd>
-						<dd class="small_star">★★★★★</dd><strong>9.94</strong>
-					</dl>
-					</li>
 					<li><a href="#"><img src="https://shared-comic.pstatic.net/thumb/nas/user_contents_data/challenge_comic/2018/03/09/psh911121/thumbnail_83x90713ac317_d7bc_4a66_b3fb_5b712c6cf89e_00000274.JPEG"></a>
 					<dl>
 						<dt><a href="#">CMYK</a></dt>
@@ -328,8 +320,6 @@
 						<dd class="small_star">★★★★★</dd><strong>9.94</strong>
 					</dl>
 					</li>
-				</div>
-				<div class="best_secondgroup">
 					<li><a href="#"><img src="https://shared-comic.pstatic.net/thumb/nas/user_contents_data/challenge_comic/2018/12/24/khn6918/thumbnail_83x905016ebbb_6a0c_4983_a765_81047464d8b5_00001048.JPEG"></a>
 					<dl>
 						<dt><a href="#">쓰레기 머학생</a></dt>
@@ -338,6 +328,9 @@
 						<dd class="small_star">★★★★★</dd><strong>9.94</strong>
 					</dl>
 					</li>
+				</div>
+				<div class="best_secondgroup">
+					
 					<li><a href="#"><img src="https://shared-comic.pstatic.net/thumb/nas/user_contents_data/challenge_comic/2018/04/30/cultureshock1/thumbnail_83x90648bc77b_c123_4fbe_abb6_8f8c2523f2b8_00002426.JPEG"></a>
 					<dl>
 						<dt><a href="#">치와와의 오후</a></dt>
@@ -422,6 +415,14 @@
 					<dl>
 						<dt><a href="#">은룡여린설</a></dt>
 						<dd><a href="#">adcf2007</a></dd>
+						<dd class="best_all_view">만화 소개 및 설명</dd>
+						<dd class="small_star">★★★★★</dd><strong>9.94</strong>
+					</dl>
+					</li>
+					<li><a href="#"><img src="https://shared-comic.pstatic.net/thumb/nas/user_contents_data/challenge_comic/2019/03/10/yj180/thumbnail_83x90143a9cd6_2886_4ce0_91c1_11546a2cd152_00001146.JPEG"></a>
+					<dl>
+						<dt><a href="#">나의 작은 조</a></dt>
+						<dd><a href="#">yj180</a></dd>
 						<dd class="best_all_view">만화 소개 및 설명</dd>
 						<dd class="small_star">★★★★★</dd><strong>9.94</strong>
 					</dl>

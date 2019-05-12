@@ -274,54 +274,7 @@
 		<div class="dayToon_mon">
 			<ul class="best_img_list">
 				<div class="best_fristgroup">
-					<li><a href="#"><img src="https://shared-comic.pstatic.net/thumb/nas/user_contents_data/challenge_comic/2019/03/10/yj180/thumbnail_83x90143a9cd6_2886_4ce0_91c1_11546a2cd152_00001146.JPEG"></a>
-					<dl>
-						<dt><a href="#">나의 작은 조</a></dt>
-						<dd><a href="#">yj180</a></dd>
-						<dd class="best_all_view">만화 소개 및 설명</dd>
-						<dd class="small_star">★★★★★</dd><strong>9.94</strong>
-					</dl>
-					</li>
-					<li><a href="#"><img src="https://shared-comic.pstatic.net/thumb/nas/user_contents_data/challenge_comic/2019/04/02/croberin/thumbnail_83x90bb59a441_e4d4_4b19_8353_68520b35854b_00000180.JPEG"></a>
-					<dl>
-						<dt><a href="#">자유의 경계</a></dt>
-						<dd><a href="#">croberin</a></dd>
-						<dd class="best_all_view">만화 소개 및 설명</dd>
-						<dd class="small_star">★★★★★</dd><strong>9.94</strong>
-					</dl>
-					</li>
-					<li><a href="#"><img src="https://shared-comic.pstatic.net/thumb/nas/user_contents_data/challenge_comic/2018/03/09/psh911121/thumbnail_83x90713ac317_d7bc_4a66_b3fb_5b712c6cf89e_00000274.JPEG"></a>
-					<dl>
-						<dt><a href="#">CMYK</a></dt>
-						<dd><a href="#">psh911121</a></dd>
-						<dd class="best_all_view">만화 소개 및 설명</dd>
-						<dd class="small_star">★★★★★</dd><strong>9.94</strong>
-					</dl>
-					</li>
-					<li><a href="#"><img src="https://shared-comic.pstatic.net/thumb/nas/user_contents_data/challenge_comic/2018/04/07/pearl7729/thumbnail_83x9054b3002c_e2e1_4ffe_aea4_26dcb2484e6a_00002453.JPEG"></a>
-					<dl>
-						<dt><a href="#">뚜벅뚜벅, 비혼라이프</a></dt>
-						<dd><a href="#">pearl7729</a></dd>
-						<dd class="best_all_view">만화 소개 및 설명</dd>
-						<dd class="small_star">★★★★★</dd><strong>9.94</strong>
-					</dl>
-					</li>
-					<li><a href="#"><img src="https://shared-comic.pstatic.net/thumb/nas/user_contents_data/challenge_comic/2019/03/10/kororong12/thumbnail_83x90739614b7_a976_46b9_be8e_54eaff432166_00001256.JPEG"></a>
-					<dl>
-						<dt><a href="#">원인탐구생활: 새로운 가족</a></dt>
-						<dd><a href="#">kororong12</a></dd>
-						<dd class="best_all_view">만화 소개 및 설명</dd>
-						<dd class="small_star">★★★★★</dd><strong>9.94</strong>
-					</dl>
-					</li>
-					<li><a href="#"><img src="https://shared-comic.pstatic.net/thumb/nas/user_contents_data/challenge_comic/2018/04/30/subacdanchu/thumbnail_83x90b7c9b5e0_6aeb_4cb5_a0f3_cd41b3b42b7a_00002439.JPEG"></a>
-					<dl>
-						<dt><a href="#">우당탕탕 학교가자!</a></dt>
-						<dd><a href="#">subacdanchu</a></dd>
-						<dd class="best_all_view">만화 소개 및 설명</dd>
-						<dd class="small_star">★★★★★</dd><strong>9.94</strong>
-					</dl>
-					</li>
+					
 					<li><a href="#"><img src="https://shared-comic.pstatic.net/thumb/nas/user_contents_data/challenge_comic/2019/04/06/byojfeel/thumbnail_83x902aac5494_1925_4693_a0e2_dd8666f47c44_00000176.JPEG"></a>
 					<dl>
 						<dt><a href="#">링딩동</a></dt>
@@ -370,8 +323,6 @@
 						<dd class="small_star">★★★★★</dd><strong>9.94</strong>
 					</dl>
 					</li>
-				</div>
-				<div class="best_secondgroup">
 					<li><a href="#"><img src="https://shared-comic.pstatic.net/thumb/nas/user_contents_data/challenge_comic/2019/04/28/luckytree077/thumbnail_83x900ab2d7fd_8782_4480_baa2_fab8e1b9aa62_00000757.JPEG"></a>
 					<dl>
 						<dt><a href="#">중딩툰</a></dt>
@@ -420,6 +371,9 @@
 						<dd class="small_star">★★★★★</dd><strong>9.94</strong>
 					</dl>
 					</li>
+				</div>
+				<div class="best_secondgroup">
+					
 					<li><a href="#"><img src="https://shared-comic.pstatic.net/thumb/nas/user_contents_data/challenge_comic/2019/03/01/colastick/thumbnail_83x900b74ca4a_b1e5_413c_a5bc_bf6bf0ace35f_00002429.JPEG"></a>
 					<dl>
 						<dt><a href="#">중독연구소</a></dt>
@@ -464,6 +418,54 @@
 					<dl>
 						<dt><a href="#">치와와의 오후</a></dt>
 						<dd><a href="#">cultureshock1</a></dd>
+						<dd class="best_all_view">만화 소개 및 설명</dd>
+						<dd class="small_star">★★★★★</dd><strong>9.94</strong>
+					</dl>
+					</li>
+					<li><a href="#"><img src="https://shared-comic.pstatic.net/thumb/nas/user_contents_data/challenge_comic/2019/03/10/yj180/thumbnail_83x90143a9cd6_2886_4ce0_91c1_11546a2cd152_00001146.JPEG"></a>
+					<dl>
+						<dt><a href="#">나의 작은 조</a></dt>
+						<dd><a href="#">yj180</a></dd>
+						<dd class="best_all_view">만화 소개 및 설명</dd>
+						<dd class="small_star">★★★★★</dd><strong>9.94</strong>
+					</dl>
+					</li>
+					<li><a href="#"><img src="https://shared-comic.pstatic.net/thumb/nas/user_contents_data/challenge_comic/2019/04/02/croberin/thumbnail_83x90bb59a441_e4d4_4b19_8353_68520b35854b_00000180.JPEG"></a>
+					<dl>
+						<dt><a href="#">자유의 경계</a></dt>
+						<dd><a href="#">croberin</a></dd>
+						<dd class="best_all_view">만화 소개 및 설명</dd>
+						<dd class="small_star">★★★★★</dd><strong>9.94</strong>
+					</dl>
+					</li>
+					<li><a href="#"><img src="https://shared-comic.pstatic.net/thumb/nas/user_contents_data/challenge_comic/2018/03/09/psh911121/thumbnail_83x90713ac317_d7bc_4a66_b3fb_5b712c6cf89e_00000274.JPEG"></a>
+					<dl>
+						<dt><a href="#">CMYK</a></dt>
+						<dd><a href="#">psh911121</a></dd>
+						<dd class="best_all_view">만화 소개 및 설명</dd>
+						<dd class="small_star">★★★★★</dd><strong>9.94</strong>
+					</dl>
+					</li>
+					<li><a href="#"><img src="https://shared-comic.pstatic.net/thumb/nas/user_contents_data/challenge_comic/2018/04/07/pearl7729/thumbnail_83x9054b3002c_e2e1_4ffe_aea4_26dcb2484e6a_00002453.JPEG"></a>
+					<dl>
+						<dt><a href="#">뚜벅뚜벅, 비혼라이프</a></dt>
+						<dd><a href="#">pearl7729</a></dd>
+						<dd class="best_all_view">만화 소개 및 설명</dd>
+						<dd class="small_star">★★★★★</dd><strong>9.94</strong>
+					</dl>
+					</li>
+					<li><a href="#"><img src="https://shared-comic.pstatic.net/thumb/nas/user_contents_data/challenge_comic/2019/03/10/kororong12/thumbnail_83x90739614b7_a976_46b9_be8e_54eaff432166_00001256.JPEG"></a>
+					<dl>
+						<dt><a href="#">원인탐구생활: 새로운 가족</a></dt>
+						<dd><a href="#">kororong12</a></dd>
+						<dd class="best_all_view">만화 소개 및 설명</dd>
+						<dd class="small_star">★★★★★</dd><strong>9.94</strong>
+					</dl>
+					</li>
+					<li><a href="#"><img src="https://shared-comic.pstatic.net/thumb/nas/user_contents_data/challenge_comic/2018/04/30/subacdanchu/thumbnail_83x90b7c9b5e0_6aeb_4cb5_a0f3_cd41b3b42b7a_00002439.JPEG"></a>
+					<dl>
+						<dt><a href="#">우당탕탕 학교가자!</a></dt>
+						<dd><a href="#">subacdanchu</a></dd>
 						<dd class="best_all_view">만화 소개 및 설명</dd>
 						<dd class="small_star">★★★★★</dd><strong>9.94</strong>
 					</dl>
