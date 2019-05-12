@@ -190,7 +190,7 @@
 		<!-- 베스트도전 장르 -->
 		<div class="cateogry_p">
 			<ul class="category_day">
-				<li class="category_selected">
+				<li>
 					<a href="challenge.jsp">전체만화</a>
 				</li>
 				<li>
@@ -211,7 +211,7 @@
 				<li id="narrow">
 					<a href="chall_fantasy.jsp">판타지</a>
 				</li>
-				<li id="narrow">
+				<li id="narrow" class="category_selected">
 					<a href="chall_action.jsp">액션</a>
 				</li>
 				<li id="narrow">
@@ -233,49 +233,9 @@
 					<a href="chall_sport.jsp">스포츠</a>
 				</li>
 			</ul>
-			<p style="font-size: 12px; color: #848383;">도전만화는 누구나 참여할 수 있는 창작만화(UCC) 게시판 입니다.</p><br>
+			<p style="font-size: 12px; color: #848383;">도전만화는 누구나 참여할 수 있는 창작만화(UCC) 게시판 입니다.</p>
 		</div>
-		<!-- 인기 웹툰 -->
-		<div class="chall_pop">
-			<div class="challSpot">
-			<h5>오늘의 인기 도전만화</h5>
-				<ul>
-					<li class="challSpot2">
-						<a href="#">
-							<img class="litoon" src="https://shared-comic.pstatic.net/thumb/challengeimg/pcweb/upload_e16b79fa-9fa2-4793-ae1a-103343d090ac.jpg">
-						</a>
-						<a href="#">
-							<p class="chall_title"><strong>현세이의 보이는 라디오</strong></p>
-						</a>
-							<p class="chall_info">| <a href="#">채윤언니 1(첫 만남)</a> | <a class="challwriter" href="#">say_ya0808</a></p>
-						<div class="challview"><p class="challstar">★★★★★</p><strong>9.59</strong></div>
-					</li>
-					<li class="challSpot2">
-						<a href="#">
-						<img class="litoon" src="https://shared-comic.pstatic.net/thumb/challengeimg/pcweb/upload_eddc7733-43d0-457c-ae8c-9b1b22431a40.jpg">
-						</a>
-						<a href="#">
-							<p class="chall_title"><strong>클로버</strong></p>
-						</a>
-							<p class="chall_info">| <a href="#">14화 </a> | <a class="challwriter" href="#">magicalunagi</a></p>
-						<div class="challview"><p class="challstar">★★★★☆</p><strong>8.30</strong></div>
-					</li>
-					<li class="challSpot2">
-						<a href="#">
-							<img class="litoon" src="https://shared-comic.pstatic.net/thumb/challengeimg/pcweb/upload_6f0774e9-c324-4cac-bef5-7172392e5e23.jpg">
-						</a>
-						<a href="#">
-							<p class="chall_title"><strong>나의 일본인 친구</strong></p>
-						</a>
-							<p class="chall_info">| <a href="#">6화</a> | <a class="challwriter" href="#">agharta13</a></p>
-						<div class="challview"><p class="challstar">★★★★☆</p><strong>8.14</strong></div>
-					</li>
-				</ul>
-			</div>
-		</div>
-	
-		
-			<!-- 전체 웹툰 -->
+		<!-- 전체 웹툰 -->
 		<div class="daytoon_wrap">
 			<div class="chall_sort">
 				<a id="chall_sort_sel" href="command_chall.jsp">추천 도전만화</a>|
@@ -284,62 +244,7 @@
 		<div class="dayToon_mon">
 			<ul class="chall_img_list">
 				<div class="chall_firstgroup">
-					<li><a href="#"><img src="https://shared-comic.pstatic.net/thumb/nas/user_contents_data/challenge_comic/2019/03/24/fixsit/title_thumbnail_034208_83x90.jpg"></a>
-					<dl>
-						<dt><a href="#">ㅁㅁ의 중단편</a></dt>
-						<dd><a href="#">fixsit</a></dd>
-						<dd class="chall_all_view">만화 소개 및 설명</dd>
-						<dd class="small_star">★★★★★</dd><strong>9.94</strong>
-					</dl>
-					</li>
-					<li><a href="#"><img src="https://shared-comic.pstatic.net/thumb/nas/user_contents_data/challenge_comic/2019/04/23/hamham010/thumbnail_83x9006443ff3_96c2_48f9_9c88_e0733ac2b9dd_00000906.JPEG"></a>
-					<dl>
-						<dt><a href="#">우리는 예상치 못하게</a></dt>
-						<dd><a href="#">hamham010</a></dd>
-						<dd class="chall_all_view">만화 소개 및 설명</dd>
-						<dd class="small_star">★★★★★</dd><strong>9.94</strong>
-					</dl>
-					</li>
-					<li><a href="#"><img src="https://shared-comic.pstatic.net/thumb/nas/user_contents_data/challenge_comic/2019/02/15/qorhvk808/thumbnail_83x90eac8bb1b_05fe_4064_93ba_27eec4bb8a4f_00000124.JPEG"></a>
-					<dl>
-						<dt><a href="#">그 애인의 생존법</a></dt>
-						<dd><a href="#">qorhvk808</a></dd>
-						<dd class="chall_all_view">만화 소개 및 설명</dd>
-						<dd class="small_star">★★★★★</dd><strong>9.94</strong>
-					</dl>
-					</li>
-					<li><a href="#"><img src="https://shared-comic.pstatic.net/thumb/nas/user_contents_data/challenge_comic/2018/12/22/7sevsn7/title_thumbnail_004137_83x90.jpg"></a>
-					<dl>
-						<dt><a href="#">구나의 그랬구나</a></dt>
-						<dd><a href="#">7sevsn7</a></dd>
-						<dd class="chall_all_view">만화 소개 및 설명</dd>
-						<dd class="small_star">★★★★★</dd><strong>9.94</strong>
-					</dl>
-					</li>
-					<li><a href="#"><img src="https://shared-comic.pstatic.net/thumb/nas/user_contents_data/challenge_comic/2019/04/01/hee81hoo/thumbnail_83x906b3ad6f9_b735_451a_a3fa_c83343ef5179_00000033.JPEG"></a>
-					<dl>
-						<dt><a href="#">158동 진상부부</a></dt>
-						<dd><a href="#">hee81hoo</a></dd>
-						<dd class="chall_all_view">만화 소개 및 설명</dd>
-						<dd class="small_star">★★★★★</dd><strong>9.94</strong>
-					</dl>
-					</li>
-					<li><a href="#"><img src="https://shared-comic.pstatic.net/thumb/nas/user_contents_data/challenge_comic/2019/04/03/sweetpurple221/thumbnail_83x9098e30b18_2564_426b_b34b_555cf3d33e2b_00000297.JPEG"></a>
-					<dl>
-						<dt><a href="#">우형제</a></dt>
-						<dd><a href="#">sweetpurple221</a></dd>
-						<dd class="chall_all_view">만화 소개 및 설명</dd>
-						<dd class="small_star">★★★★★</dd><strong>9.94</strong>
-					</dl>
-					</li>
-					<li><a href="#"><img src="https://shared-comic.pstatic.net/thumb/nas/user_contents_data/challenge_comic/2019/04/05/kez512/thumbnail_83x905a8d02a0_546c_4833_a756_eda1bb1bb06c_00000405.JPEG"></a>
-					<dl>
-						<dt><a href="#">아틀레냐 비바체</a></dt>
-						<dd><a href="#">kez512</a></dd>
-						<dd class="chall_all_view">만화 소개 및 설명</dd>
-						<dd class="small_star">★★★★★</dd><strong>9.94</strong>
-					</dl>
-					</li>
+					
 					<li><a href="#"><img src="https://shared-comic.pstatic.net/thumb/nas/user_contents_data/challenge_comic/2019/05/05/dlr1006/thumbnail_83x90cf2aaf72_dcb6_4c12_badb_ac18b003a1ba_00002254.JPEG"></a>
 					<dl>
 						<dt><a href="#">물레</a></dt>
@@ -380,8 +285,6 @@
 						<dd class="small_star">★★★★★</dd><strong>9.94</strong>
 					</dl>
 					</li>
-				</div>
-				<div class="chall_secondgroup">
 					<li><a href="#"><img src="https://shared-comic.pstatic.net/thumb/nas/user_contents_data/challenge_comic/2019/03/31/jmjs4321/thumbnail_83x9088dfa53c_1591_497a_94d8_7e8419f6f08e_00000079.JPEG"></a>
 					<dl>
 						<dt><a href="#">지하에 피어난 꽃 한송이</a></dt>
@@ -438,6 +341,9 @@
 						<dd class="small_star">★★★★★</dd><strong>9.94</strong>
 					</dl>
 					</li>
+				</div>
+				<div class="chall_secondgroup">
+					
 					<li><a href="#"><img src="https://shared-comic.pstatic.net/thumb/nas/user_contents_data/challenge_comic/2019/04/12/skystep_/thumbnail_83x90e92b59a2_9c13_4b74_9c38_69ca92d1c209_00001903.JPEG"></a>
 					<dl>
 						<dt><a href="#">시간의상처</a></dt>
@@ -474,6 +380,62 @@
 					<dl>
 						<dt><a href="#">나비를 찾아서</a></dt>
 						<dd><a href="#">goyohantr</a></dd>
+						<dd class="chall_all_view">만화 소개 및 설명</dd>
+						<dd class="small_star">★★★★★</dd><strong>9.94</strong>
+					</dl>
+					</li>
+					<li><a href="#"><img src="https://shared-comic.pstatic.net/thumb/nas/user_contents_data/challenge_comic/2019/03/24/fixsit/title_thumbnail_034208_83x90.jpg"></a>
+					<dl>
+						<dt><a href="#">ㅁㅁ의 중단편</a></dt>
+						<dd><a href="#">fixsit</a></dd>
+						<dd class="chall_all_view">만화 소개 및 설명</dd>
+						<dd class="small_star">★★★★★</dd><strong>9.94</strong>
+					</dl>
+					</li>
+					<li><a href="#"><img src="https://shared-comic.pstatic.net/thumb/nas/user_contents_data/challenge_comic/2019/04/23/hamham010/thumbnail_83x9006443ff3_96c2_48f9_9c88_e0733ac2b9dd_00000906.JPEG"></a>
+					<dl>
+						<dt><a href="#">우리는 예상치 못하게</a></dt>
+						<dd><a href="#">hamham010</a></dd>
+						<dd class="chall_all_view">만화 소개 및 설명</dd>
+						<dd class="small_star">★★★★★</dd><strong>9.94</strong>
+					</dl>
+					</li>
+					<li><a href="#"><img src="https://shared-comic.pstatic.net/thumb/nas/user_contents_data/challenge_comic/2019/02/15/qorhvk808/thumbnail_83x90eac8bb1b_05fe_4064_93ba_27eec4bb8a4f_00000124.JPEG"></a>
+					<dl>
+						<dt><a href="#">그 애인의 생존법</a></dt>
+						<dd><a href="#">qorhvk808</a></dd>
+						<dd class="chall_all_view">만화 소개 및 설명</dd>
+						<dd class="small_star">★★★★★</dd><strong>9.94</strong>
+					</dl>
+					</li>
+					<li><a href="#"><img src="https://shared-comic.pstatic.net/thumb/nas/user_contents_data/challenge_comic/2018/12/22/7sevsn7/title_thumbnail_004137_83x90.jpg"></a>
+					<dl>
+						<dt><a href="#">구나의 그랬구나</a></dt>
+						<dd><a href="#">7sevsn7</a></dd>
+						<dd class="chall_all_view">만화 소개 및 설명</dd>
+						<dd class="small_star">★★★★★</dd><strong>9.94</strong>
+					</dl>
+					</li>
+					<li><a href="#"><img src="https://shared-comic.pstatic.net/thumb/nas/user_contents_data/challenge_comic/2019/04/01/hee81hoo/thumbnail_83x906b3ad6f9_b735_451a_a3fa_c83343ef5179_00000033.JPEG"></a>
+					<dl>
+						<dt><a href="#">158동 진상부부</a></dt>
+						<dd><a href="#">hee81hoo</a></dd>
+						<dd class="chall_all_view">만화 소개 및 설명</dd>
+						<dd class="small_star">★★★★★</dd><strong>9.94</strong>
+					</dl>
+					</li>
+					<li><a href="#"><img src="https://shared-comic.pstatic.net/thumb/nas/user_contents_data/challenge_comic/2019/04/03/sweetpurple221/thumbnail_83x9098e30b18_2564_426b_b34b_555cf3d33e2b_00000297.JPEG"></a>
+					<dl>
+						<dt><a href="#">우형제</a></dt>
+						<dd><a href="#">sweetpurple221</a></dd>
+						<dd class="chall_all_view">만화 소개 및 설명</dd>
+						<dd class="small_star">★★★★★</dd><strong>9.94</strong>
+					</dl>
+					</li>
+					<li><a href="#"><img src="https://shared-comic.pstatic.net/thumb/nas/user_contents_data/challenge_comic/2019/04/05/kez512/thumbnail_83x905a8d02a0_546c_4833_a756_eda1bb1bb06c_00000405.JPEG"></a>
+					<dl>
+						<dt><a href="#">아틀레냐 비바체</a></dt>
+						<dd><a href="#">kez512</a></dd>
 						<dd class="chall_all_view">만화 소개 및 설명</dd>
 						<dd class="small_star">★★★★★</dd><strong>9.94</strong>
 					</dl>

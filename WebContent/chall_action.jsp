@@ -3,5 +3,5 @@
     
 <jsp:forward page="templateTest.jsp">
 	<jsp:param name="TOPPAGE" value="challengeProc.jsp" />
-	<jsp:param name="CONTENTPAGE" value="chall_sportProc.jsp" />
+	<jsp:param name="CONTENTPAGE" value="chall_actionProc.jsp" />
 </jsp:forward>

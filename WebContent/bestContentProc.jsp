@@ -233,7 +233,7 @@
 						<a href="#">
 							<p class="best_title"><strong title="중독연구소">중독연구소</strong></p>
 						</a>
-							<p class="besttoon_info">| <a href="#">11 게임중독(5)</a> | <a href="#">cloastick</a></p>
+							<p class="besttoon_info">| <a href="#">11 게임중독(5)</a> | <a class="bestwriter" href="#">cloastick</a></p>
 						<div class="bestview"><p class="beststar">★★★★★</p><strong>9.70</strong></div>
 					</li>
 					<li class="bestSpot2">
@@ -243,7 +243,7 @@
 						<a href="#">
 							<p class="best_title"><strong title="쓰레기 머학생">쓰레기 머학생</strong></p>
 						</a>
-							<p class="besttoon_info">| <a href="#">40화 </a> | <a href="#">khn6918</a></p>
+							<p class="besttoon_info">| <a href="#">40화 </a> | <a class="bestwriter" href="#">khn6918</a></p>
 						<div class="bestview"><p class="beststar">★★★★★</p><strong>9.87</strong></div>
 					</li>
 					<li class="bestSpot2">
