@@ -24,5 +24,5 @@
 	</style>
 </head>
 <jsp:forward page="templateTest.jsp">
-	<jsp:param name="CONTENTPAGE" value="thuToon.jsp" /> 
+	<jsp:param name="CONTENTPAGE" value="sunToon.jsp" /> 
 </jsp:forward>

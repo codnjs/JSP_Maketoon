@@ -768,7 +768,7 @@
 						<li><a href="#">
 						<img src="https://shared-comic.pstatic.net/thumb/webtoon/690503/thumbnail/title_thumbnail_20170106153614_t83x90.jpg">도망자</a></li>
 						<li><a href="#">
-						<img src="https://shared-comic.pstatic.net/thumb/webtoon/626939/thumbnail/thumbnail_IMAG10_821c4cf8-e1a4-47ec-be73-ee6163307441.jpg">둥굴레차!</a></li>
+						<img src="https://shared-comic.pstatic.net/thumb/webtoon/690503/thumbnail/title_thumbnail_20170106153614_t83x90.jpg">둥굴레차!</a></li>
 						<li><a href="#">
 						<img src="https://shared-comic.pstatic.net/thumb/webtoon/720116/thumbnail/thumbnail_IMAG10_f2704815-81ea-4887-ab66-66361e6ebffa.jpg">데우스 엑스 마키나</a></li>
 						<li><a href="#">
