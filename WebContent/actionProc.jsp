@@ -77,7 +77,7 @@
 		margin: 20 0 10 20;
 	}
 	.daytoon_wrap {
-		margin-top: 30px;
+		margin-top: 20px;
 	}
 	.daytoon_wrap h5 {
 		float: right;
@@ -219,57 +219,15 @@
 					<a href="sport.jsp">스포츠</a>
 				</li>
 			</ul>
-			<p style="font-size: 12px; color: #848383;">베스트 도전만화는 누구나 참여할 수 있는 창작만화(UCC) 게시판 입니다.</p><br>
+			<p style="font-size: 12px; color: #848383;">베스트 도전만화는 누구나 참여할 수 있는 창작만화(UCC) 게시판 입니다.</p>
 		</div>
-		<!-- 인기 웹툰 -->
-		<div class="best_pop">
-			<div class="bestSpot">
-			<h5>오늘의 인기 베스트</h5>
-				<ul>
-					<li class="bestSpot2">
-						<a href="#">
-							<img class="litoon" src="https://shared-comic.pstatic.net/thumb/challengeimg/pcweb/upload_212397d6-f9f0-4d00-b37f-043400fcd2d1.jpg">
-						</a>
-						<a href="#">
-							<p class="best_title"><strong title="중독연구소">중독연구소</strong></p>
-						</a>
-							<p class="besttoon_info">| <a href="#">11 게임중독(5)</a> | <a href="#">cloastick</a></p>
-						<div class="bestview"><p class="beststar">★★★★★</p><strong>9.70</strong></div>
-					</li>
-					<li class="bestSpot2">
-						<a href="#">
-						<img class="litoon" src="https://shared-comic.pstatic.net/thumb/challengeimg/pcweb/upload_80710927-cfa0-40a5-a3e5-c782e7741838.jpg">
-						</a>
-						<a href="#">
-							<p class="best_title"><strong title="쓰레기 머학생">쓰레기 머학생</strong></p>
-						</a>
-							<p class="besttoon_info">| <a href="#">40화 </a> | <a href="#">khn6918</a></p>
-						<div class="bestview"><p class="beststar">★★★★★</p><strong>9.87</strong></div>
-					</li>
-					<li class="bestSpot2">
-						<a href="#">
-							<img class="litoon" src="https://shared-comic.pstatic.net/thumb/challengeimg/pcweb/upload_b7891adb-4d53-4676-a821-59666ab2916f.jpg">
-						</a>
-						<a href="#">
-							<p class="best_title"><strong title="비차의 캘리툰, 첫 단추">비차의 캘리툰, 첫 단추</strong></p>
-						</a>
-							<p class="besttoon_info">| <a href="#">쉰 하나</a> | <a class="bestwriter" href="#">ssb603</a></p>
-						<div class="bestview"><p class="beststar">★★★★★</p><strong>9.87</strong></div>
-					</li>
-				</ul>
-			</div>
-		</div>
-	
-		
 			<!-- 전체 웹툰 -->
 		<div class="daytoon_wrap">
-		<h5 style="
-    margin-right: 30px;
-"><a href="#">제목순</a></h5>
+		<h5 style="margin-right: 30px;"><a href="#">제목순</a></h5>
 		<h5><a href="#">별점순</a></h5>
 		<h5><a href="#">조회순</a></h5>
 		<h5><a href="#">업데이트순</a></h5>
-			<h3 style="padding-bottom: 5px; border-bottom: 1px solid #e5e5e5;">전체</h3>
+			<h3 style="padding-bottom: 5px; border-bottom: 1px solid #e5e5e5;">액션</h3>
 		
 		<div class="dayToon_mon">
 			<ul class="best_img_list">

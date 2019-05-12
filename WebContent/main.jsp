@@ -22,6 +22,12 @@
 		  font-weight: normal; 
 		  font-style: normal;
 		}
+		.daytoon_wrap h5 {
+			float: right;
+			padding-left: 10px;
+			margin-top: 8px;
+			font-family: '나눔고딕';
+		}
 	</style>
 </head>
 <jsp:forward page="templateTest.jsp">

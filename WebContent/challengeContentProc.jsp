@@ -177,46 +177,46 @@
 		<div class="cateogry_p">
 			<ul class="category_day">
 				<li class="category_selected">
-					<a href="content.jsp">전체만화</a>
+					<a href="challenge.jsp">전체만화</a>
 				</li>
 				<li>
-					<a href="episode.jsp">에피소드</a>
+					<a href="chall_episode.jsp">에피소드</a>
 				</li>
 				<li>
-					<a href="omnibus.jsp">옴니버스</a>
+					<a href="chall_omnibus.jsp">옴니버스</a>
 				</li>
 				<li style="margin-right: 11px;">
-					<a href="story.jsp">스토리&nbsp;| </a> 
+					<a href="chall_story.jsp">스토리&nbsp;| </a> 
 				</li>
 				<li id="narrow">
-					<a href="daily.jsp">일상</a>
+					<a href="chall_daily.jsp">일상</a>
 				</li>
 				<li id="narrow">
-					<a href="comedy.jsp">개그</a>
+					<a href="chall_comedy.jsp">개그</a>
 				</li>
 				<li id="narrow">
-					<a href="fantasy.jsp">판타지</a>
+					<a href="chall_fantasy.jsp">판타지</a>
 				</li>
 				<li id="narrow">
-					<a href="action.jsp">액션</a>
+					<a href="chall_action.jsp">액션</a>
 				</li>
 				<li id="narrow">
-					<a href="drama.jsp">드라마</a>
+					<a href="chall_drama.jsp">드라마</a>
 				</li>
 				<li id="narrow">
-					<a href="purelove.jsp">순정</a>
+					<a href="chall_purelove.jsp">순정</a>
 				</li>
 				<li id="narrow">
-					<a href="gamsung.jsp">감성</a>
+					<a href="chall_gamsung.jsp">감성</a>
 				</li>
 				<li id="narrow">
-					<a href="thiller.jsp">스릴러</a>
+					<a href="chall_thiller.jsp">스릴러</a>
 				</li>
 				<li id="narrow">
-					<a href="historical.jsp">시대극</a>
+					<a href="chall_historical.jsp">시대극</a>
 				</li>
 				<li id="narrow">
-					<a href="sport.jsp">스포츠</a>
+					<a href="chall_sport.jsp">스포츠</a>
 				</li>
 			</ul>
 			<p style="font-size: 12px; color: #848383;">베스트 도전만화는 누구나 참여할 수 있는 창작만화(UCC) 게시판 입니다.</p><br>
