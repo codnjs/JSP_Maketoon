@@ -153,9 +153,6 @@
 			font-size: 12px;
 			margin-top: 5px;
 		}
-		.question img {
-			
-		}
 		.question a{
 			padding-left: 5px;
 		}
@@ -220,19 +217,19 @@
 		    				<span class="nmHome">홈</span></a>
 		    			</li>
 		    			<li class="head_selected">
-							<a href="#">
+							<a href="top.jsp">
 		    				<span class="nmWebtoon">웹툰</span></a>
 						</li>
 		    			<li>
-							<a href="#">
+							<a href="best.jsp">
 		    				<span class="nmBest">베스트 도전</span></a>
 						</li>
 		    			<li>
-							<a href="#">
+							<a href="challenge.jsp">
 		    				<span class="nmChallenge">도전만화</span></a>
 						</li>
 		    			<li>
-							<a href="#">
+							<a href="mypage.jsp">
 		    				<span class="nmMypage">마이페이지</span></a>
 						</li>
 		    		</ul>

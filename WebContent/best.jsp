@@ -2,5 +2,6 @@
     pageEncoding="UTF-8"%>
     
 <jsp:forward page="templateTest.jsp">
-	<jsp:param name="CONTENTPAGE" value="bestProc.jsp" />
+	<jsp:param name="TOPPAGE" value="bestProc.jsp" />
+	<jsp:param name="CONTENTPAGE" value="bestContentProc.jsp" />
 </jsp:forward>
