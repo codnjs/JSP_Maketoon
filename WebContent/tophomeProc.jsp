@@ -211,11 +211,11 @@
 		    <div class="menu">
 		    	<div class="headToon_menu">
 		    		<ul class="menu1_left">
-		    			<li>
+		    			<li class="head_selected">
 		    				<a href="home.jsp">
 		    				<span class="nmHome">홈</span></a>
 		    			</li>
-		    			<li class="head_selected">
+		    			<li>
 							<a href="top.jsp">
 		    				<span class="nmWebtoon">웹툰</span></a>
 						</li>
@@ -243,39 +243,7 @@
 		    				<span class="nmGenre" style="margin-left: -10px;">장르소설</span></a>
 						</li>
 		    		</ul>  	
-		    	</div> 
-		    	<div class="groupToon_menu">
-		   		<ul>
-		   			<li class="group_selected">
-		   				<a href="#">
-		   				<span class="gmDay">요일별</span></a>
-		   			</li>
-		   			<li>
-		   				<a href="#">
-		   				<span class="gmGenre">장르별</span></a>
-		   			</li>
-		   			<li>
-		   				<a href="#">
-		   				<span class="gmWork">작품별</span></a>
-		   			</li>
-		   			<li>
-		   				<a href="#">
-		   				<span class="gmWriter">작가별</span></a>
-		   			</li>
-		   			<li>
-		   				<a href="#">
-		   				<span class="gmYear">연도별</span></a>
-		   			</li>
-		   			<li>
-		   				<a href="#">
-		   				<span class="gmTheme">테마웹툰</span></a>
-		   			</li>
-		   			<li>
-		   				<a href="#">
-		   				<span class="gmEnd">완결웹툰</span></a>
-		   			</li>
-		   		</ul>
-		   	</div>   
+		    	</div>    
 		  </div>    
     </div>
 </body>
