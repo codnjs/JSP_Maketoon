@@ -82,7 +82,7 @@
 	.daytoon_wrap h5 {
 		float: right;
 		padding-left: 10px;
-		margin-top: 15px;
+		margin-top: 8px;
 	}
 	.daytoon_wrap h5 a:hover {
 		text-decoration: none;
@@ -263,7 +263,9 @@
 		
 			<!-- 전체 웹툰 -->
 		<div class="daytoon_wrap">
-		<h5><a href="#">제목순</a></h5>
+		<h5 style="
+    margin-right: 30px;
+"><a href="#">제목순</a></h5>
 		<h5><a href="#">별점순</a></h5>
 		<h5><a href="#">조회순</a></h5>
 		<h5><a href="#">업데이트순</a></h5>
