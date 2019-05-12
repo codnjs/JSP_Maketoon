@@ -2,5 +2,6 @@
     pageEncoding="UTF-8"%>
     
 <jsp:forward page="templateTest.jsp">
+	<jsp:param name="TOPPAGE" value="topProc.jsp" />
 	<jsp:param name="CONTENTPAGE" value="friToonProc.jsp" />
 </jsp:forward>
